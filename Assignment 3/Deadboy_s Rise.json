@@ -5463,6 +5463,968 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left arrow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/18324e1b75ef7a340433b25a131f8597d3005d74a158a7d90a96d52bc1011241_Left arrow.png",
+          "name": "Left arrow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right arrow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/cf447ec45269c88d614a7e3964832435eaa938b7923ea542752f5b0b8bffdc28_Right arrow.png",
+          "name": "Right arrow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Box_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Box_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/810a7e45389c46b729c0d9e0b4d8349d38a2cbafeec2b91b7812160c642ef666_Blue Box_No Shadow.png",
+          "name": "Blue Box_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Box_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Box_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/8c567a937aee0e307a4f89290ba2083ddde3ec839e207a9e706e0a09ab160b3d_Blue Box_Shadow.png",
+          "name": "Blue Box_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Attack_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/4c5a2d6a577fec599ba0a0d7f72120890c05dea821124bebb210a436cb2c1fb0_Knight_Attack_1.png",
+          "name": "Knight_Attack_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Attack_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Attack_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/3e044dea94e4676a8aaa89ad6c70d214b7f8690a5be9ce2bae26115180d6b17a_Knight_Attack_10.png",
+          "name": "Knight_Attack_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Attack_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/40a7291f0df3ad11f0ba0f272f9b7a79b0930bb7d1ef43989a2ed62a99e1d438_Knight_Attack_2.png",
+          "name": "Knight_Attack_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Attack_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/98ae1e594194a7a1c141693bddd073d71ec4b84a9ef56e77ca8145620cf357a7_Knight_Attack_3.png",
+          "name": "Knight_Attack_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Attack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Attack_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/dcb5d384f1a94f1cc28db8e805cfeff1424a635ea71afd8c462957b9221504c4_Knight_Attack_4.png",
+          "name": "Knight_Attack_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Attack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Attack_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/fdf988b57fbc7ed1e855e8895c3af258fb81d2a5acbcfa0f20ae2e62e488f653_Knight_Attack_5.png",
+          "name": "Knight_Attack_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Attack_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Attack_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/841f45e05d806fee2b8bec7065f1dd2c201e408a169154b292ea5e82bea1cc75_Knight_Attack_6.png",
+          "name": "Knight_Attack_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Attack_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Attack_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/ca34511f90f0693686aea393f49df5694881d2f7f88e449cfb62b627561e0beb_Knight_Attack_7.png",
+          "name": "Knight_Attack_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Attack_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Attack_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/b34c0785cbd6699b8c8568748b70ba83497b8052b2e9d1d735630f078e0734e5_Knight_Attack_8.png",
+          "name": "Knight_Attack_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Attack_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Attack_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/65fb9bf3837308f0c8c9e73ecf1855fa1a5777021df9be132f7d7032cf4d622e_Knight_Attack_9.png",
+          "name": "Knight_Attack_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Dead_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Dead_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/c7425dd5c586cf741293306c68816905c26f18dbaf0f69dd3b543f9c1f700273_Knight_Dead_1.png",
+          "name": "Knight_Dead_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Dead_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Dead_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/0b27d10c341348ab073a25fac8310aa540d693d4cbc9371abb2c182cfba11773_Knight_Dead_10.png",
+          "name": "Knight_Dead_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Dead_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Dead_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/b306ae7762bdb35a4540d8adcb2194c706e248ca664709fa7d2e63283042cd1e_Knight_Dead_2.png",
+          "name": "Knight_Dead_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Dead_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Dead_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/79e9891d4851413a61b8e0d5a994f83c2222e5f12591fc785d1fe496c5bca90e_Knight_Dead_3.png",
+          "name": "Knight_Dead_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Dead_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Dead_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/435b22ab035163415a29c022bc438e376deea590e0c3790368f15d5ad2e9eb76_Knight_Dead_4.png",
+          "name": "Knight_Dead_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Dead_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Dead_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/df061b65b001d0512249f06b0b7041ae7352e6a72efbdc5b099690c6b76e76b0_Knight_Dead_5.png",
+          "name": "Knight_Dead_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Dead_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Dead_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/c23e9bf82890ab97a0c2eb1508580eff19afef38aaa6a24ab5a2146253fb10e6_Knight_Dead_6.png",
+          "name": "Knight_Dead_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Dead_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Dead_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/7fc701a378b974bc865ce8ae4e45c407907dac4238badbc8b73a538a7fdcb13d_Knight_Dead_7.png",
+          "name": "Knight_Dead_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Dead_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Dead_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/bdb4a92b3a6196faa530803ff31f48974a0147969869c3e306ac3440c9aa01f8_Knight_Dead_8.png",
+          "name": "Knight_Dead_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Dead_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Dead_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/39beae060b28cf23acdbda7a8ed18c125c902a701b598ef3fe67acd0147e496c_Knight_Dead_9.png",
+          "name": "Knight_Dead_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Idle_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/9e8a93a7484f442f73ed63d053c014571880a0a5348f25e6d7f5c5832158d60f_Knight_Idle_1.png",
+          "name": "Knight_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Idle_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/5bcf95f61c03acd00bb1aebd97140be38cdfb37ca67213f7c46ae7e85052a1fa_Knight_Idle_10.png",
+          "name": "Knight_Idle_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Idle_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/b457af10bae7c7c4a947d540774aa4bf3db59257032938e4cbe7125f3808bb61_Knight_Idle_2.png",
+          "name": "Knight_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Idle_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/a880948b74168aa4b7f7d5bd42acc1f7a8c5b4530522b6fba3899fb4fe01bafd_Knight_Idle_3.png",
+          "name": "Knight_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Idle_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/a3475233b56c9045c97aef07f7956ad79c2f6b39bc1a6d43e2b91076609754f4_Knight_Idle_4.png",
+          "name": "Knight_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Idle_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/696c782454043c7c291653ea57925f188ba735a5d22e3002006d9c769f45d021_Knight_Idle_5.png",
+          "name": "Knight_Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Idle_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/06a9f7080d9a336232c8394d66f09157493d1c8d451f3d2fde33c436b27b8daa_Knight_Idle_6.png",
+          "name": "Knight_Idle_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Idle_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/9b501afd4d044b21858e6abe2ca5e8b289b6391cde2b998a99c569b300ca8c56_Knight_Idle_7.png",
+          "name": "Knight_Idle_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Idle_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/8f7ea2ca42b2b88a010304ef8bff6d46df74961a3c32276c2167ecaf4b69c890_Knight_Idle_8.png",
+          "name": "Knight_Idle_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Idle_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/f07938eeecae7f521b756a4f21c41455063330c4347b05db174788a583779971_Knight_Idle_9.png",
+          "name": "Knight_Idle_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump Attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump Attack_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/aad08b83caebf6c7082a6e39b6dcf707d2a622d9b66e6746039795b28983727b_Knight_Jump Attack_1.png",
+          "name": "Knight_Jump Attack_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump Attack_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump Attack_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/5015d6679dccf304d0eaae3307808168b4127e3b9264be1bb92a5a6a178a9613_Knight_Jump Attack_10.png",
+          "name": "Knight_Jump Attack_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump Attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump Attack_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/369a7bfd4bcfa76c045b717dcf14a1543a25d6d0a1278787a8702b56850377a0_Knight_Jump Attack_2.png",
+          "name": "Knight_Jump Attack_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump Attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump Attack_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/a1844a5062adc03ac19f9bb352bdb796d9a6f7c9d6ee8ee693fb81cfde53f3db_Knight_Jump Attack_3.png",
+          "name": "Knight_Jump Attack_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump Attack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump Attack_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/906facad4d4023f4a75e25d6a16955eb0f7957487b65f34e91d8715a41a7ce4c_Knight_Jump Attack_4.png",
+          "name": "Knight_Jump Attack_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump Attack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump Attack_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/fdfba594959770f38e90574308017593ba814ef9f4442f4f50bed8889ef53d64_Knight_Jump Attack_5.png",
+          "name": "Knight_Jump Attack_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump Attack_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump Attack_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/b14fa3ac18eefbacc30d69b0703c39fe443c0ec12b1e96ca8d5ad62cf4960e0d_Knight_Jump Attack_6.png",
+          "name": "Knight_Jump Attack_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump Attack_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump Attack_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/072d76446dafc3c4cdf36643528157846e4d800296a35ca2d80b3b459a0878cf_Knight_Jump Attack_7.png",
+          "name": "Knight_Jump Attack_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump Attack_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump Attack_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/767576d76525ed313cb0ff4552c2beb196fe45f8c615947b850fe0556bca6670_Knight_Jump Attack_8.png",
+          "name": "Knight_Jump Attack_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump Attack_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump Attack_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/62164622da452b05d97c9d976ffa17621b0c5860493c6986e5e42cb98d17ffde_Knight_Jump Attack_9.png",
+          "name": "Knight_Jump Attack_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/0a9c3e7841815d8e5b7a1945803363558c6e244eaa39045090578ac312aa13b5_Knight_Jump_1.png",
+          "name": "Knight_Jump_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/dd891af9a3ed1f33cdb06e296cfba1add09bf42ea1d53602427c0b6974278cfc_Knight_Jump_10.png",
+          "name": "Knight_Jump_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/5ca1613f1c4cbb6c481b45622053bde44af6e36e71966fded4fcc02c7e37a148_Knight_Jump_2.png",
+          "name": "Knight_Jump_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/875dfe3cf82180ff9fc73b020332315531392b8a045072f5d4bcde0189894621_Knight_Jump_3.png",
+          "name": "Knight_Jump_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/b54cf5eda3f202863e1d7ba783699b628da6020c14de02c904cd5f4d6036238e_Knight_Jump_4.png",
+          "name": "Knight_Jump_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/d32755a70c0b8a33216f9b51a8a8f0394571ebae61e98d0054efc2ce590ba3e4_Knight_Jump_5.png",
+          "name": "Knight_Jump_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/080fdfb6f79e0729d4589b662f71427680885f40ee14ad02b31cee2474b1bdda_Knight_Jump_6.png",
+          "name": "Knight_Jump_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/0dc6f60f2400aa800f5a8946995734e25a233c3109ce5400f9deb39d46e9ee5c_Knight_Jump_7.png",
+          "name": "Knight_Jump_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/92d5b35cc3b9fe368b9cf93241e6e3262ef21af9cd984b4f7bed919f59ac1aa9_Knight_Jump_8.png",
+          "name": "Knight_Jump_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Jump_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Jump_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/6ba31c4b23c6db27c2243c8dbc1a9154651f90ed98241cca830212083717167e_Knight_Jump_9.png",
+          "name": "Knight_Jump_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Run_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/43631cb6721c26b3d7de8f2ed1b332d2a2e319cf3eca36187c20afa31094946d_Knight_Run_1.png",
+          "name": "Knight_Run_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Run_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Run_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/0701bd4ead179fb030185dfb16623b59c2d2fa0ac3403ac839b1231f826d879e_Knight_Run_10.png",
+          "name": "Knight_Run_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Run_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/8c803476c78f255fd2abcba21b41260151be198486c3834d4c60bd85adeb1470_Knight_Run_2.png",
+          "name": "Knight_Run_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Run_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/90768386ce2ae40d7d838f32fe8bcf008c2103f119d6caff1b7087cb669b108a_Knight_Run_3.png",
+          "name": "Knight_Run_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Run_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/1f01636f77a37c455ba1886504c7437e34845a65bf258ba34f3c6e7eb879444c_Knight_Run_4.png",
+          "name": "Knight_Run_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Run_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/8847a2acb5113cb06dec60a45da552400b4a35dc50bd33b711dabe1e3ffa57de_Knight_Run_5.png",
+          "name": "Knight_Run_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Run_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/642847362559bdb63d7ee0e8cbe5d5149caa5c724f0bd05c9c2c851be7ca12f7_Knight_Run_6.png",
+          "name": "Knight_Run_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Run_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/fbd01be1b9d7fc0ba9bc9db828b18e1a470eff0a2e1a8bcaed17206c3cde6ced_Knight_Run_7.png",
+          "name": "Knight_Run_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Run_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/5dd0776226b59ee8ef38879baa277e2fd7f481af18589f32f48ad1d94b59fb0c_Knight_Run_8.png",
+          "name": "Knight_Run_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Run_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Run_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/d233a2ad8dae1a371c9e607f596170fd1c88121c4b190267c52103b062fe4920_Knight_Run_9.png",
+          "name": "Knight_Run_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Walk_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/9bb69dc31c33e79fa4c5d6f5793ba703c5748092ae4ad5b1c8b788645b353ee6_Knight_Walk_1.png",
+          "name": "Knight_Walk_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Walk_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Walk_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/5692d44421153a1328fbfc62bb7b2cbc68f7d5cd89d1131c69e8607cdd5ed2af_Knight_Walk_10.png",
+          "name": "Knight_Walk_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Walk_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/069123bc037ec61da9afa77407a77218da626f8a6119b3fbb262b1087e346ca8_Knight_Walk_2.png",
+          "name": "Knight_Walk_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Walk_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/47907f258c26de1248c01a123765fbd5fb1304f70eb3fd3b67a087a06dc88dbc_Knight_Walk_3.png",
+          "name": "Knight_Walk_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Walk_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/ff23eb37111b11f1aa35176b81bf6154f46b762b54f805ca7045a97536c8e8d1_Knight_Walk_4.png",
+          "name": "Knight_Walk_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Walk_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Walk_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/9f63503d2366a5b010a30601c5e7f0466f3803f00033fcc6e860dbb3892b30ce_Knight_Walk_5.png",
+          "name": "Knight_Walk_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Walk_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Walk_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/34cebdd63b1e8247bc430b3ea2436dfbbe310b4d993e65cbab01156355f18547_Knight_Walk_6.png",
+          "name": "Knight_Walk_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Walk_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Walk_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/089b5722055b5d6d0c38c8331f1600d70461ba13533affc9a4cd80598a5a3ee6_Knight_Walk_7.png",
+          "name": "Knight_Walk_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Walk_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Walk_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/1a0cc13545099ef77b323c19815cbf431373f0fe955306c584e31490ec951898_Knight_Walk_8.png",
+          "name": "Knight_Walk_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight_Walk_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight_Walk_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Knight/6f78ab64c96bdd823d42536985588fb981e266219d9444294b2f83b9315bd7d1_Knight_Walk_9.png",
+          "name": "Knight_Walk_9.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -5471,7 +6433,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Player",
+      "name": "Player23",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -7241,7 +8203,7 @@
         "objectName": "JumpPickup"
       },
       {
-        "objectName": "Player"
+        "objectName": "Player23"
       },
       {
         "objectName": "ShadowClone"
@@ -7322,7 +8284,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.24672586957407971,
+        "zoomFactor": 0.2636457673770999,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7340,22 +8302,6 @@
           "x": 1,
           "y": 411,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 73,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "110ef588-ad3b-48cf-8dd0-a351d8bb855c",
-          "width": 57,
-          "x": 13,
-          "y": 321,
-          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7414,8 +8360,8 @@
           "name": "Gold",
           "persistentUuid": "855f2fa9-2a60-48a7-900e-de4ce4817f4b",
           "width": 19,
-          "x": 62,
-          "y": 94,
+          "x": 63,
+          "y": 17,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -7429,8 +8375,8 @@
           "name": "Gold_Coin",
           "persistentUuid": "bce1b1a7-9bb2-43ed-b5ef-89950f081eb7",
           "width": 0,
-          "x": 11,
-          "y": 90,
+          "x": 12,
+          "y": 13,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -7460,8 +8406,8 @@
           "name": "grassPlatform",
           "persistentUuid": "cacc7c9d-ac32-4bbd-b846-20d4e05e3d0f",
           "width": 422,
-          "x": -848,
-          "y": 303,
+          "x": -986,
+          "y": 242,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -7694,8 +8640,8 @@
           "name": "Flag",
           "persistentUuid": "e0969fb9-b266-4df0-981d-e01bea4ba835",
           "width": 217,
-          "x": -634,
-          "y": 90,
+          "x": -772,
+          "y": 29,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -7710,8 +8656,8 @@
           "name": "FlagHitBox",
           "persistentUuid": "8740f247-e708-4caf-ab86-d0f8cd6adc5a",
           "width": 64,
-          "x": -640,
-          "y": 92,
+          "x": -778,
+          "y": 31,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -7726,8 +8672,8 @@
           "name": "FlagHitBox",
           "persistentUuid": "649ab4b1-894e-4660-86bd-8b3c25fb240a",
           "width": 175,
-          "x": -611,
-          "y": 136,
+          "x": -749,
+          "y": 75,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -7788,8 +8734,8 @@
           "name": "Final_Goal",
           "persistentUuid": "46242dc9-58cb-4726-b4c2-5b7d968c80c5",
           "width": 0,
-          "x": -562,
-          "y": 63,
+          "x": -700,
+          "y": 2,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -7804,8 +8750,8 @@
           "name": "Gold_Coin_hover3",
           "persistentUuid": "8f210033-51bd-412e-b844-1795168479d5",
           "width": 55,
-          "x": -463,
-          "y": 71,
+          "x": -601,
+          "y": 10,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -8276,8 +9222,8 @@
           "name": "Gold_Coin_Pickup",
           "persistentUuid": "39fa0de1-cc27-456c-97d2-28804b016404",
           "width": 0,
-          "x": -828,
-          "y": 260,
+          "x": -966,
+          "y": 199,
           "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
@@ -8292,8 +9238,8 @@
           "name": "Platforms",
           "persistentUuid": "4d40bc7c-d5e4-4701-b070-8363d228e993",
           "width": 164,
-          "x": -1105,
-          "y": 310,
+          "x": -1243,
+          "y": 249,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -8307,8 +9253,8 @@
           "name": "Gold_Coin_Pickup",
           "persistentUuid": "46fb785b-93af-45b7-99dd-aed3f54d5658",
           "width": 0,
-          "x": -1045,
-          "y": 263,
+          "x": -1183,
+          "y": 202,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
@@ -8667,16 +9613,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
           "layer": "",
-          "name": "Gold_Coin",
-          "persistentUuid": "10392072-5f7c-4bf7-850f-d34e863f0b40",
-          "width": 0,
-          "x": 2562,
-          "y": 273,
-          "zOrder": 67,
+          "name": "Player23",
+          "persistentUuid": "cc960f6b-0794-4972-8e23-05c6ffce7102",
+          "width": 58,
+          "x": 4,
+          "y": 326,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25721,6 +26667,16 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "SetFullScreen"
+              },
+              "parameters": [
+                "",
+                "yes",
+                ""
+              ]
             }
           ]
         },
@@ -25734,7 +26690,7 @@
               },
               "parameters": [
                 "",
-                "Player",
+                "Player23",
                 "no",
                 "",
                 ""
@@ -25806,7 +26762,7 @@
                         "value": "PlatformBehavior::SimulateRightKey"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject"
                       ]
                     },
@@ -25815,7 +26771,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "Flippable",
                         "no"
                       ]
@@ -25851,7 +26807,7 @@
                         "value": "PlatformBehavior::SimulateLeftKey"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject"
                       ]
                     },
@@ -25860,7 +26816,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "Flippable",
                         "yes"
                       ]
@@ -25896,7 +26852,7 @@
                         "value": "PlatformBehavior::SimulateJumpKey"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject"
                       ]
                     }
@@ -25923,7 +26879,7 @@
                         "value": "PlatformBehavior::IsJumping"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject"
                       ]
                     }
@@ -25934,7 +26890,7 @@
                         "value": "PlatformBehavior::JumpSustainTime"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject",
                         "=",
                         "0.4"
@@ -25950,7 +26906,7 @@
                         "value": "PlatformBehavior::IsFalling"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject"
                       ]
                     }
@@ -25961,7 +26917,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "Animation",
                         "=",
                         "\"Jumping\""
@@ -25977,7 +26933,7 @@
                         "value": "PlatformBehavior::IsOnFloor"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject"
                       ]
                     }
@@ -25993,7 +26949,7 @@
                             "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "PlatformerObject"
                           ]
                         }
@@ -26004,7 +26960,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "Animation",
                             "=",
                             "\"Idle\""
@@ -26020,7 +26976,7 @@
                             "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "PlatformerObject"
                           ]
                         }
@@ -26031,7 +26987,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "Animation",
                             "=",
                             "\"Walking\""
@@ -26062,7 +27018,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "canDash",
                         "True"
                       ]
@@ -26089,7 +27045,7 @@
                             "value": "AdvancedJump::HorizontalDash::SimulateDashKey"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "HorizontalDash",
                             ""
                           ]
@@ -26104,7 +27060,7 @@
                             "value": "AdvancedJump::HorizontalDash::IsDashing"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "HorizontalDash",
                             ""
                           ]
@@ -26117,7 +27073,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player",
+                            "Player23",
                             "ShadowClone",
                             "10",
                             "1",
@@ -26168,7 +27124,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player",
+                            "Player23",
                             "ShadowClone",
                             ""
                           ]
@@ -26198,7 +27154,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "canDoubleJump",
                         "True"
                       ]
@@ -26214,7 +27170,7 @@
                             "value": "PlatformBehavior::IsFalling"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "PlatformerObject"
                           ]
                         },
@@ -26232,7 +27188,7 @@
                             "value": "VarObjet"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "jumpCount",
                             "<",
                             "1"
@@ -26251,7 +27207,7 @@
                             "value": "PlatformBehavior::SetCanJump"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "PlatformerObject"
                           ]
                         },
@@ -26260,7 +27216,7 @@
                             "value": "ModVarObjet"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "jumpCount",
                             "+",
                             "1"
@@ -26276,7 +27232,7 @@
                             "value": "PlatformBehavior::IsJumping"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "PlatformerObject"
                           ]
                         },
@@ -26285,7 +27241,7 @@
                             "value": "VarObjet"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "jumpCount",
                             "=",
                             "1"
@@ -26299,7 +27255,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player",
+                            "Player23",
                             "ShadowClone",
                             "10",
                             "1",
@@ -26350,7 +27306,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player",
+                            "Player23",
                             "ShadowClone",
                             ""
                           ]
@@ -26365,7 +27321,7 @@
                             "value": "PlatformBehavior::IsOnFloor"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "PlatformerObject"
                           ]
                         }
@@ -26376,7 +27332,7 @@
                             "value": "ModVarObjet"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "jumpCount",
                             "=",
                             "0"
@@ -26560,7 +27516,7 @@
                     "value": "PlatformBehavior::IsFalling"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "PlatformerObject"
                   ]
                 },
@@ -26569,7 +27525,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "Slime",
                     "",
                     "",
@@ -26592,7 +27548,7 @@
                     "value": "PlatformBehavior::SetCanJump"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "PlatformerObject"
                   ]
                 },
@@ -26601,7 +27557,7 @@
                     "value": "PlatformBehavior::SimulateJumpKey"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "PlatformerObject"
                   ]
                 },
@@ -26637,7 +27593,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "Spikes",
                     "",
                     "",
@@ -26669,7 +27625,7 @@
                         "value": "MettreY"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "=",
                         "321"
                       ]
@@ -26679,7 +27635,7 @@
                         "value": "MettreX"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "=",
                         "13"
                       ]
@@ -26696,7 +27652,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "Slime",
                     "",
                     "",
@@ -26708,7 +27664,7 @@
                     "value": "PlatformBehavior::IsOnFloor"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "PlatformerObject"
                   ]
                 }
@@ -26737,7 +27693,7 @@
                         "value": "MettreY"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "=",
                         "321"
                       ]
@@ -26747,7 +27703,7 @@
                         "value": "MettreX"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "=",
                         "13"
                       ]
@@ -26786,7 +27742,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "Gold_Coin_Pickup",
                         "",
                         "",
@@ -26871,7 +27827,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "DashPickup",
                         "",
                         "",
@@ -26928,7 +27884,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "canDash",
                         "True"
                       ]
@@ -26977,7 +27933,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "JumpPickup",
                         "",
                         "",
@@ -27034,7 +27990,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "canDoubleJump",
                         "True"
                       ]
@@ -27115,7 +28071,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "FlagHitBox",
                     "",
                     "",
@@ -27351,7 +28307,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8993607583666617,
+        "zoomFactor": 0.6455105703311478,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -27854,7 +28810,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9934433498259586,
+        "zoomFactor": 0.604083874998888,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -27896,22 +28852,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Star",
-          "persistentUuid": "0cdbd851-5667-4c57-90f5-a4173c478098",
-          "width": 0,
-          "x": 701,
-          "y": 11,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 2,
           "height": 136,
@@ -27937,6 +28877,56 @@
           "x": 132,
           "y": 44,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 111,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeftArrow",
+          "persistentUuid": "24e34850-e514-402b-a825-775bf675e330",
+          "width": 102,
+          "x": 357,
+          "y": 504,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RightArrow",
+          "persistentUuid": "8e485a94-388b-4fa3-a1ab-088244b3139c",
+          "width": 0,
+          "x": 850,
+          "y": 496,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 324,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BlueBox",
+          "persistentUuid": "ee299d8d-30c2-4a6a-90d9-f64af8de8b83",
+          "width": 324,
+          "x": 508,
+          "y": 137,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28085,6 +29075,234 @@
               "width": 192
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "56620f58bc8730fe4a9e4a76caff40de4ca8f034e3c821da2cb73247909b5126",
+          "name": "LeftArrow",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Left arrow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 7
+                          },
+                          {
+                            "x": 107,
+                            "y": 7
+                          },
+                          {
+                            "x": 107,
+                            "y": 109
+                          },
+                          {
+                            "x": 14,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "ed150d95b590f97deda65902f26379fd804a3a6d1cb89344efc4d0ddbbc9dc3c",
+          "name": "RightArrow",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Right arrow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 7
+                          },
+                          {
+                            "x": 93,
+                            "y": 109
+                          },
+                          {
+                            "x": 0,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "af21f69c20a38f1d1aefb475da60f7ff181f851b4f74ead05d185b7f104d2af8",
+          "name": "BlueBox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "No Shadow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Box_No Shadow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 97,
+                            "y": 0
+                          },
+                          {
+                            "x": 97,
+                            "y": 97
+                          },
+                          {
+                            "x": 0,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shadow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Box_Shadow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 97,
+                            "y": 0
+                          },
+                          {
+                            "x": 97,
+                            "y": 97
+                          },
+                          {
+                            "x": 0,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -28095,6 +29313,15 @@
           },
           {
             "objectName": "BackButton2"
+          },
+          {
+            "objectName": "LeftArrow"
+          },
+          {
+            "objectName": "RightArrow"
+          },
+          {
+            "objectName": "BlueBox"
           }
         ]
       },
@@ -28127,6 +29354,79 @@
           ]
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": " Stars Handling",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Gold",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Stars",
+                    "+",
+                    "GlobalVariable(Gold)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Stars",
+                    "Text",
+                    "=",
+                    "GlobalVariableString(Stars)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "UI",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -28151,6 +29451,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -28266,7 +29571,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2233600589381192,
+        "zoomFactor": 0.3216911764705964,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -28293,7 +29598,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Player",
+          "name": "Player23",
           "persistentUuid": "255b952e-db53-4adb-8bcc-a1b21950e403",
           "width": 0,
           "x": 18,
@@ -29826,7 +31131,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Player",
+                "Player23",
                 "canDash",
                 "False"
               ]
@@ -29836,7 +31141,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Player",
+                "Player23",
                 "canDoubleJump",
                 "False"
               ]
@@ -29865,7 +31170,7 @@
               },
               "parameters": [
                 "",
-                "Player",
+                "Player23",
                 "no",
                 "",
                 ""
@@ -29912,7 +31217,7 @@
                         "value": "PlatformBehavior::SimulateRightKey"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject"
                       ]
                     },
@@ -29921,7 +31226,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "Flippable",
                         "no"
                       ]
@@ -29957,7 +31262,7 @@
                         "value": "PlatformBehavior::SimulateLeftKey"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject"
                       ]
                     },
@@ -29966,7 +31271,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "Flippable",
                         "yes"
                       ]
@@ -30002,7 +31307,7 @@
                         "value": "PlatformBehavior::SimulateJumpKey"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject"
                       ]
                     }
@@ -30029,7 +31334,7 @@
                         "value": "PlatformBehavior::IsJumping"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject"
                       ]
                     }
@@ -30040,7 +31345,7 @@
                         "value": "PlatformBehavior::JumpSustainTime"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject",
                         "=",
                         "0.4"
@@ -30056,7 +31361,7 @@
                         "value": "PlatformBehavior::IsFalling"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject"
                       ]
                     }
@@ -30067,7 +31372,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "Animation",
                         "=",
                         "\"Jumping\""
@@ -30083,7 +31388,7 @@
                         "value": "PlatformBehavior::IsOnFloor"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "PlatformerObject"
                       ]
                     }
@@ -30099,7 +31404,7 @@
                             "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "PlatformerObject"
                           ]
                         }
@@ -30110,7 +31415,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "Animation",
                             "=",
                             "\"Idle\""
@@ -30126,7 +31431,7 @@
                             "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "PlatformerObject"
                           ]
                         }
@@ -30137,7 +31442,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "Animation",
                             "=",
                             "\"Walking\""
@@ -30168,7 +31473,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "canDash",
                         "True"
                       ]
@@ -30195,7 +31500,7 @@
                             "value": "AdvancedJump::HorizontalDash::SimulateDashKey"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "HorizontalDash",
                             ""
                           ]
@@ -30210,7 +31515,7 @@
                             "value": "AdvancedJump::HorizontalDash::IsDashing"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "HorizontalDash",
                             ""
                           ]
@@ -30223,7 +31528,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player",
+                            "Player23",
                             "ShadowClone",
                             "10",
                             "1",
@@ -30274,7 +31579,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player",
+                            "Player23",
                             "ShadowClone",
                             ""
                           ]
@@ -30304,7 +31609,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "canDoubleJump",
                         "True"
                       ]
@@ -30320,7 +31625,7 @@
                             "value": "PlatformBehavior::IsFalling"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "PlatformerObject"
                           ]
                         },
@@ -30338,7 +31643,7 @@
                             "value": "VarObjet"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "jumpCount",
                             "<",
                             "1"
@@ -30357,7 +31662,7 @@
                             "value": "PlatformBehavior::SetCanJump"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "PlatformerObject"
                           ]
                         },
@@ -30366,7 +31671,7 @@
                             "value": "ModVarObjet"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "jumpCount",
                             "+",
                             "1"
@@ -30382,7 +31687,7 @@
                             "value": "PlatformBehavior::IsJumping"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "PlatformerObject"
                           ]
                         },
@@ -30391,7 +31696,7 @@
                             "value": "VarObjet"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "jumpCount",
                             "=",
                             "1"
@@ -30405,7 +31710,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player",
+                            "Player23",
                             "ShadowClone",
                             "10",
                             "1",
@@ -30456,7 +31761,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player",
+                            "Player23",
                             "ShadowClone",
                             ""
                           ]
@@ -30471,7 +31776,7 @@
                             "value": "PlatformBehavior::IsOnFloor"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "PlatformerObject"
                           ]
                         }
@@ -30482,7 +31787,7 @@
                             "value": "ModVarObjet"
                           },
                           "parameters": [
-                            "Player",
+                            "Player23",
                             "jumpCount",
                             "=",
                             "0"
@@ -30666,7 +31971,7 @@
                     "value": "PlatformBehavior::IsFalling"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "PlatformerObject"
                   ]
                 },
@@ -30675,7 +31980,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "Slime",
                     "",
                     "",
@@ -30698,7 +32003,7 @@
                     "value": "PlatformBehavior::SetCanJump"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "PlatformerObject"
                   ]
                 },
@@ -30707,7 +32012,7 @@
                     "value": "PlatformBehavior::SimulateJumpKey"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "PlatformerObject"
                   ]
                 },
@@ -30743,7 +32048,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "Spikes",
                     "",
                     "",
@@ -30775,7 +32080,7 @@
                         "value": "MettreY"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "=",
                         "440"
                       ]
@@ -30785,7 +32090,7 @@
                         "value": "MettreX"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "=",
                         "13"
                       ]
@@ -30802,7 +32107,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "Slime",
                     "",
                     "",
@@ -30814,7 +32119,7 @@
                     "value": "PlatformBehavior::IsOnFloor"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "PlatformerObject"
                   ]
                 }
@@ -30843,7 +32148,7 @@
                         "value": "MettreY"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "=",
                         "440"
                       ]
@@ -30853,7 +32158,7 @@
                         "value": "MettreX"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "=",
                         "13"
                       ]
@@ -30892,7 +32197,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "Gold_Coin_Pickup",
                         "",
                         "",
@@ -30977,7 +32282,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "DashPickup",
                         "",
                         "",
@@ -31034,7 +32339,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "canDash",
                         "True"
                       ]
@@ -31083,7 +32388,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "JumpPickup",
                         "",
                         "",
@@ -31140,7 +32445,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player",
+                        "Player23",
                         "canDoubleJump",
                         "True"
                       ]
@@ -31220,7 +32525,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player",
+                    "Player23",
                     "FlagHitBox",
                     "",
                     "",
