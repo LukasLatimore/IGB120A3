@@ -6789,6 +6789,84 @@
         "name": "Skins\\Purple\\p1_walk05P.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Purple/p1_walk01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Purple\\p1_walk01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Purple/p1_walk02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Purple\\p1_walk02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Purple/p1_walk03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Purple\\p1_walk03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Purple/p1_walk04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Purple\\p1_walk04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Purple/p1_walk05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Purple\\p1_walk05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Interface/b3ce50e688559dc919a2554efe925f90bf3663823b7d72963110044e7bf5dd0c_Yellow Button.png",
+          "name": "Yellow Button.png"
+        }
+      },
+      {
+        "file": "Music/shop theme.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Music\\shop theme.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sfx/purchase.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx\\purchase.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7274,11 +7352,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Skins\\Purple\\p1_walk01p.png",
+                  "image": "Skins\\Purple\\p1_walk01.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7314,7 +7392,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Skins\\Purple\\p1_walk02p.png",
+                  "image": "Skins\\Purple\\p1_walk02.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7350,7 +7428,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Skins\\Purple\\p1_walk03p.png",
+                  "image": "Skins\\Purple\\p1_walk03.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7386,7 +7464,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Skins\\Purple\\p1_walk04P.png",
+                  "image": "Skins\\Purple\\p1_walk04.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7422,7 +7500,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Skins\\Purple\\p1_walk05P.png",
+                  "image": "Skins\\Purple\\p1_walk05.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -30685,16 +30763,141 @@
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "\"Idle-p\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsJumping"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Jumping\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Idle-p\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Walking-p\""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ]
@@ -32163,7 +32366,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7370816317994044,
+        "zoomFactor": 0.993443349825959,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -33264,6 +33467,18 @@
                 "skin",
                 "=",
                 "\"p\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sfx\\purchase.mp3",
+                "",
+                "30",
+                "1"
               ]
             }
           ]
@@ -35293,65 +35508,13 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::IsJumping"
+                        "inverted": true,
+                        "value": "VarGlobalTxt"
                       },
                       "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::JumpSustainTime"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject",
+                        "skin",
                         "=",
-                        "0.4"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsFalling"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Animation",
-                        "=",
-                        "\"Jumping\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
+                        "\"p\""
                       ]
                     }
                   ],
@@ -35362,8 +35525,7 @@
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                            "value": "PlatformBehavior::IsJumping"
                           },
                           "parameters": [
                             "Player",
@@ -35374,13 +35536,13 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                            "value": "PlatformBehavior::JumpSustainTime"
                           },
                           "parameters": [
                             "Player",
-                            "Animation",
+                            "PlatformerObject",
                             "=",
-                            "\"Idle\""
+                            "0.4"
                           ]
                         }
                       ]
@@ -35390,7 +35552,7 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                            "value": "PlatformBehavior::IsFalling"
                           },
                           "parameters": [
                             "Player",
@@ -35407,7 +35569,79 @@
                             "Player",
                             "Animation",
                             "=",
-                            "\"Walking\""
+                            "\"Jumping\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation",
+                                "=",
+                                "\"Walking\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation",
+                                "=",
+                                "\"Idle\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -35795,6 +36029,60 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "PlatformBehavior::IsJumping"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::JumpSustainTime"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject",
+                        "=",
+                        "0.4"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Jumping-p\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "value": "PlatformBehavior::IsOnFloor"
                       },
                       "parameters": [
@@ -35805,34 +36093,6 @@
                   ],
                   "actions": [],
                   "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Idle-p\""
-                          ]
-                        }
-                      ]
-                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -35865,7 +36125,8 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::IsFalling"
+                            "inverted": true,
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                           },
                           "parameters": [
                             "Player",
@@ -35882,7 +36143,7 @@
                             "Player",
                             "Animation",
                             "=",
-                            "\"Jumping\""
+                            "\"Idle-p\""
                           ]
                         }
                       ]
