@@ -6735,6 +6735,60 @@
         "name": "Skins\\Purple\\p1_standp.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Purple/p1_jumpp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Purple\\p1_jumpp.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Purple/p1_walk01p.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Purple\\p1_walk01p.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Purple/p1_walk02p.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Purple\\p1_walk02p.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Purple/p1_walk03p.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Purple\\p1_walk03p.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Purple/p1_walk04P.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Purple\\p1_walk04P.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Purple/p1_walk05P.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Purple\\p1_walk05P.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6743,7 +6797,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Player23",
+      "name": "Player",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -7129,6 +7183,246 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Skins\\Purple\\p1_standp.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jumping-p",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Purple\\p1_jumpp.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking-p",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Purple\\p1_walk01p.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Purple\\p1_walk02p.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Purple\\p1_walk03p.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Purple\\p1_walk04P.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Purple\\p1_walk05P.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11177,7 +11471,7 @@
         "objectName": "JumpPickup"
       },
       {
-        "objectName": "Player23"
+        "objectName": "Player"
       },
       {
         "objectName": "ShadowClone"
@@ -12585,7 +12879,7 @@
           "depth": 1,
           "height": 109,
           "layer": "",
-          "name": "Player23",
+          "name": "Player",
           "persistentUuid": "cc960f6b-0794-4972-8e23-05c6ffce7102",
           "width": 85,
           "x": -2,
@@ -29677,7 +29971,7 @@
               },
               "parameters": [
                 "",
-                "Player23",
+                "Player",
                 "no",
                 "",
                 ""
@@ -29715,7 +30009,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Controls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29749,7 +30042,7 @@
                         "value": "PlatformBehavior::SimulateRightKey"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     },
@@ -29758,7 +30051,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "Flippable",
                         "no"
                       ]
@@ -29794,7 +30087,7 @@
                         "value": "PlatformBehavior::SimulateLeftKey"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     },
@@ -29803,7 +30096,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "Flippable",
                         "yes"
                       ]
@@ -29839,7 +30132,7 @@
                         "value": "PlatformBehavior::SimulateJumpKey"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     }
@@ -29866,7 +30159,7 @@
                         "value": "PlatformBehavior::IsJumping"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     },
@@ -29876,7 +30169,7 @@
                         "value": "PlatformBehavior::IsFalling"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     },
@@ -29886,7 +30179,7 @@
                         "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     }
@@ -29901,7 +30194,7 @@
                         "value": "PlatformBehavior::IsJumping"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     }
@@ -29912,7 +30205,7 @@
                         "value": "PlatformBehavior::JumpSustainTime"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject",
                         "=",
                         "0.4"
@@ -29928,7 +30221,7 @@
                         "value": "PlatformBehavior::IsFalling"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     }
@@ -29939,7 +30232,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "Animation",
                         "=",
                         "\"Jumping\""
@@ -29955,7 +30248,7 @@
                         "value": "PlatformBehavior::IsOnFloor"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     }
@@ -29971,7 +30264,7 @@
                             "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "PlatformerObject"
                           ]
                         }
@@ -29982,7 +30275,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "Animation",
                             "=",
                             "\"Idle\""
@@ -29998,7 +30291,7 @@
                             "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "PlatformerObject"
                           ]
                         }
@@ -30009,7 +30302,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "Animation",
                             "=",
                             "\"Walking\""
@@ -30027,7 +30320,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Player Dash",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -30040,7 +30332,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "canDash",
                         "True"
                       ]
@@ -30067,7 +30359,7 @@
                             "value": "AdvancedJump::HorizontalDash::SimulateDashKey"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "HorizontalDash",
                             ""
                           ]
@@ -30082,7 +30374,7 @@
                             "value": "AdvancedJump::HorizontalDash::IsDashing"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "HorizontalDash",
                             ""
                           ]
@@ -30095,7 +30387,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player23",
+                            "Player",
                             "ShadowClone",
                             "10",
                             "1",
@@ -30146,7 +30438,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player23",
+                            "Player",
                             "ShadowClone",
                             ""
                           ]
@@ -30176,7 +30468,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "canDoubleJump",
                         "True"
                       ]
@@ -30192,7 +30484,7 @@
                             "value": "PlatformBehavior::IsFalling"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "PlatformerObject"
                           ]
                         },
@@ -30210,7 +30502,7 @@
                             "value": "VarObjet"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "jumpCount",
                             "<",
                             "1"
@@ -30229,7 +30521,7 @@
                             "value": "PlatformBehavior::SetCanJump"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "PlatformerObject"
                           ]
                         },
@@ -30238,7 +30530,7 @@
                             "value": "ModVarObjet"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "jumpCount",
                             "+",
                             "1"
@@ -30254,7 +30546,7 @@
                             "value": "PlatformBehavior::IsJumping"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "PlatformerObject"
                           ]
                         },
@@ -30263,7 +30555,7 @@
                             "value": "VarObjet"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "jumpCount",
                             "=",
                             "1"
@@ -30277,7 +30569,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player23",
+                            "Player",
                             "ShadowClone",
                             "10",
                             "1",
@@ -30328,7 +30620,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player23",
+                            "Player",
                             "ShadowClone",
                             ""
                           ]
@@ -30343,7 +30635,7 @@
                             "value": "PlatformBehavior::IsOnFloor"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "PlatformerObject"
                           ]
                         }
@@ -30354,7 +30646,7 @@
                             "value": "ModVarObjet"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "jumpCount",
                             "=",
                             "0"
@@ -30399,7 +30691,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "Animation",
                     "=",
                     "\"Idle-p\""
@@ -30578,7 +30870,7 @@
                     "value": "PlatformBehavior::IsFalling"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "PlatformerObject"
                   ]
                 },
@@ -30587,7 +30879,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "Slime",
                     "",
                     "",
@@ -30610,7 +30902,7 @@
                     "value": "PlatformBehavior::SetCanJump"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "PlatformerObject"
                   ]
                 },
@@ -30619,7 +30911,7 @@
                     "value": "PlatformBehavior::SimulateJumpKey"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "PlatformerObject"
                   ]
                 },
@@ -30655,7 +30947,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "Spikes",
                     "",
                     "",
@@ -30687,7 +30979,7 @@
                         "value": "MettreY"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "=",
                         "321"
                       ]
@@ -30697,7 +30989,7 @@
                         "value": "MettreX"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "=",
                         "13"
                       ]
@@ -30714,7 +31006,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "Slime",
                     "",
                     "",
@@ -30726,7 +31018,7 @@
                     "value": "PlatformBehavior::IsOnFloor"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "PlatformerObject"
                   ]
                 }
@@ -30755,7 +31047,7 @@
                         "value": "MettreY"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "=",
                         "321"
                       ]
@@ -30765,7 +31057,7 @@
                         "value": "MettreX"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "=",
                         "13"
                       ]
@@ -30782,7 +31074,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Pickups",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30804,7 +31095,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "Gold_Coin_Pickup",
                         "",
                         "",
@@ -30889,7 +31180,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "DashPickup",
                         "",
                         "",
@@ -30946,7 +31237,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "canDash",
                         "True"
                       ]
@@ -30995,7 +31286,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "JumpPickup",
                         "",
                         "",
@@ -31052,7 +31343,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "canDoubleJump",
                         "True"
                       ]
@@ -31133,7 +31424,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "FlagHitBox",
                     "",
                     "",
@@ -31872,7 +32163,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8700232859857308,
+        "zoomFactor": 0.7370816317994044,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -31996,23 +32287,6 @@
           "x": 503,
           "y": 106,
           "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 194,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SHOPItem_p",
-          "persistentUuid": "3b854f5e-1066-4d2b-8c26-19447fb65992",
-          "width": 152,
-          "x": 592,
-          "y": 169,
-          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32291,7 +32565,18 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -32552,7 +32837,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Purchase",
+              "string": "Equip",
               "font": "CarterOne-Regular.ttf",
               "textAlignment": "center",
               "characterSize": 48,
@@ -32575,7 +32860,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Purchase",
+                "text": "Equip",
                 "font": "CarterOne-Regular.ttf",
                 "textAlignment": "center",
                 "characterSize": 48,
@@ -32634,6 +32919,66 @@
             "characterSize": 60,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Shopitem_default",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "p1_stand.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 0
+                          },
+                          {
+                            "x": 68,
+                            "y": 0
+                          },
+                          {
+                            "x": 68,
+                            "y": 92
+                          },
+                          {
+                            "x": 3,
+                            "y": 92
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -32662,6 +33007,9 @@
           },
           {
             "objectName": "RequiredStars"
+          },
+          {
+            "objectName": "Shopitem_default"
           }
         ]
       },
@@ -32797,7 +33145,7 @@
           "conditions": [
             {
               "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
+                "value": "ButtonStates::ButtonFSM::IsPressed"
               },
               "parameters": [
                 "LeftArrow",
@@ -32814,6 +33162,12 @@
                 ">=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -32834,7 +33188,7 @@
           "conditions": [
             {
               "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
+                "value": "ButtonStates::ButtonFSM::IsPressed"
               },
               "parameters": [
                 "RightArrow",
@@ -32851,6 +33205,12 @@
                 "<=",
                 "3"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -32871,14 +33231,46 @@
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
               },
               "parameters": [
                 "BuyButton",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Shop_ID",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "skin",
+                "=",
+                "\"p\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
           "actions": []
         },
         {
@@ -32902,6 +33294,12 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -32911,10 +33309,41 @@
                   },
                   "parameters": [
                     "",
-                    "SHOPItem_p",
-                    "592",
-                    "169",
+                    "Shopitem_default",
+                    "580",
+                    "155",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Shopitem_default",
+                    "Scale",
+                    "=",
+                    "2.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SHOPItem_p",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RequiredStars",
+                    "Text",
+                    "=",
+                    "\"0\""
                   ]
                 }
               ]
@@ -32931,6 +33360,12 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -32939,8 +33374,42 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "SHOPItem_p",
+                    "Shopitem_default",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "SHOPItem_p",
+                    "580",
+                    "155",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "SHOPItem_p",
+                    "Scale",
+                    "=",
+                    "2.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RequiredStars",
+                    "Text",
+                    "=",
+                    "\"1\""
                   ]
                 }
               ]
@@ -32999,6 +33468,10 @@
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
         },
         {
           "name": "Effect",
@@ -33089,7 +33562,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Player23",
+          "name": "Player",
           "persistentUuid": "255b952e-db53-4adb-8bcc-a1b21950e403",
           "width": 0,
           "x": 18,
@@ -34622,7 +35095,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Player23",
+                "Player",
                 "canDash",
                 "False"
               ]
@@ -34632,7 +35105,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Player23",
+                "Player",
                 "canDoubleJump",
                 "False"
               ]
@@ -34661,7 +35134,7 @@
               },
               "parameters": [
                 "",
-                "Player23",
+                "Player",
                 "no",
                 "",
                 ""
@@ -34674,7 +35147,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Controls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -34708,7 +35180,7 @@
                         "value": "PlatformBehavior::SimulateRightKey"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     },
@@ -34717,7 +35189,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "Flippable",
                         "no"
                       ]
@@ -34753,7 +35225,7 @@
                         "value": "PlatformBehavior::SimulateLeftKey"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     },
@@ -34762,7 +35234,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "Flippable",
                         "yes"
                       ]
@@ -34798,7 +35270,7 @@
                         "value": "PlatformBehavior::SimulateJumpKey"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     }
@@ -34812,7 +35284,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Player Controls",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -34825,7 +35296,7 @@
                         "value": "PlatformBehavior::IsJumping"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     }
@@ -34836,7 +35307,7 @@
                         "value": "PlatformBehavior::JumpSustainTime"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject",
                         "=",
                         "0.4"
@@ -34852,7 +35323,7 @@
                         "value": "PlatformBehavior::IsFalling"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     }
@@ -34863,7 +35334,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "Animation",
                         "=",
                         "\"Jumping\""
@@ -34879,7 +35350,7 @@
                         "value": "PlatformBehavior::IsOnFloor"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "PlatformerObject"
                       ]
                     }
@@ -34895,7 +35366,7 @@
                             "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "PlatformerObject"
                           ]
                         }
@@ -34906,7 +35377,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "Animation",
                             "=",
                             "\"Idle\""
@@ -34922,7 +35393,7 @@
                             "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "PlatformerObject"
                           ]
                         }
@@ -34933,7 +35404,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "Animation",
                             "=",
                             "\"Walking\""
@@ -34964,7 +35435,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "canDash",
                         "True"
                       ]
@@ -34991,7 +35462,7 @@
                             "value": "AdvancedJump::HorizontalDash::SimulateDashKey"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "HorizontalDash",
                             ""
                           ]
@@ -35006,7 +35477,7 @@
                             "value": "AdvancedJump::HorizontalDash::IsDashing"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "HorizontalDash",
                             ""
                           ]
@@ -35019,7 +35490,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player23",
+                            "Player",
                             "ShadowClone",
                             "10",
                             "1",
@@ -35070,7 +35541,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player23",
+                            "Player",
                             "ShadowClone",
                             ""
                           ]
@@ -35100,7 +35571,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "canDoubleJump",
                         "True"
                       ]
@@ -35116,7 +35587,7 @@
                             "value": "PlatformBehavior::IsFalling"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "PlatformerObject"
                           ]
                         },
@@ -35134,7 +35605,7 @@
                             "value": "VarObjet"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "jumpCount",
                             "<",
                             "1"
@@ -35153,7 +35624,7 @@
                             "value": "PlatformBehavior::SetCanJump"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "PlatformerObject"
                           ]
                         },
@@ -35162,7 +35633,7 @@
                             "value": "ModVarObjet"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "jumpCount",
                             "+",
                             "1"
@@ -35178,7 +35649,7 @@
                             "value": "PlatformBehavior::IsJumping"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "PlatformerObject"
                           ]
                         },
@@ -35187,7 +35658,7 @@
                             "value": "VarObjet"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "jumpCount",
                             "=",
                             "1"
@@ -35201,7 +35672,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player23",
+                            "Player",
                             "ShadowClone",
                             "10",
                             "1",
@@ -35252,7 +35723,7 @@
                           },
                           "parameters": [
                             "",
-                            "Player23",
+                            "Player",
                             "ShadowClone",
                             ""
                           ]
@@ -35267,7 +35738,7 @@
                             "value": "PlatformBehavior::IsOnFloor"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "PlatformerObject"
                           ]
                         }
@@ -35278,7 +35749,7 @@
                             "value": "ModVarObjet"
                           },
                           "parameters": [
-                            "Player23",
+                            "Player",
                             "jumpCount",
                             "=",
                             "0"
@@ -35290,6 +35761,135 @@
                 }
               ],
               "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Skins",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "skin",
+                    "=",
+                    "\"p\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Idle-p\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Walking-p\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsFalling"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Jumping\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -35450,6 +36050,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Combat",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35462,7 +36063,7 @@
                     "value": "PlatformBehavior::IsFalling"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "PlatformerObject"
                   ]
                 },
@@ -35471,7 +36072,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "Slime",
                     "",
                     "",
@@ -35494,7 +36095,7 @@
                     "value": "PlatformBehavior::SetCanJump"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "PlatformerObject"
                   ]
                 },
@@ -35503,7 +36104,7 @@
                     "value": "PlatformBehavior::SimulateJumpKey"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "PlatformerObject"
                   ]
                 },
@@ -35539,7 +36140,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "Spikes",
                     "",
                     "",
@@ -35571,7 +36172,7 @@
                         "value": "MettreY"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "=",
                         "440"
                       ]
@@ -35581,7 +36182,7 @@
                         "value": "MettreX"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "=",
                         "13"
                       ]
@@ -35598,7 +36199,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "Slime",
                     "",
                     "",
@@ -35610,7 +36211,7 @@
                     "value": "PlatformBehavior::IsOnFloor"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "PlatformerObject"
                   ]
                 }
@@ -35639,7 +36240,7 @@
                         "value": "MettreY"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "=",
                         "440"
                       ]
@@ -35649,7 +36250,7 @@
                         "value": "MettreX"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "=",
                         "13"
                       ]
@@ -35688,7 +36289,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "Gold_Coin_Pickup",
                         "",
                         "",
@@ -35773,7 +36374,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "DashPickup",
                         "",
                         "",
@@ -35830,7 +36431,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "canDash",
                         "True"
                       ]
@@ -35879,7 +36480,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "JumpPickup",
                         "",
                         "",
@@ -35936,7 +36537,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "Player23",
+                        "Player",
                         "canDoubleJump",
                         "True"
                       ]
@@ -36016,7 +36617,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Player23",
+                    "Player",
                     "FlagHitBox",
                     "",
                     "",
