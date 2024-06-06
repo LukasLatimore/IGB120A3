@@ -6968,6 +6968,16 @@
         "name": "assets\\menu background.webp",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Title Theme.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Title Theme.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13004,6 +13014,18 @@
               "parameters": [
                 "",
                 "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Title Theme.mp3",
+                "",
+                "20",
                 ""
               ]
             }
