@@ -6930,6 +6930,44 @@
         "name": "Skins\\Red\\p1_walk05.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RealLogo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealLogo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sfx/click-button-131479.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx\\click-button-131479.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sfx/click.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx\\click.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu background.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\menu background.webp",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -12550,6 +12588,642 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
+      "mangledName": "Main_32Menu",
+      "name": "Main Menu",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.5843784410740933,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 480,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Logo",
+          "persistentUuid": "09132479-0361-42d1-be0a-684a21ca4095",
+          "width": 463,
+          "x": 401,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "StartButton",
+          "persistentUuid": "1300d88e-ca6b-42d8-a4bd-623c37c5b9b3",
+          "width": 0,
+          "x": 544,
+          "y": 480,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ExitButton",
+          "persistentUuid": "53219bd6-91fb-46f8-aa6a-76cef4755319",
+          "width": 0,
+          "x": 544,
+          "y": 608,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 768,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TItleBackground",
+          "persistentUuid": "04ec919a-3331-433e-9380-41904839aedf",
+          "width": 1344,
+          "x": -32,
+          "y": -32,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Logo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RealLogo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 57,
+                            "y": 75
+                          },
+                          {
+                            "x": 665,
+                            "y": 75
+                          },
+                          {
+                            "x": 665,
+                            "y": 626
+                          },
+                          {
+                            "x": 57,
+                            "y": 626
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
+          "name": "StartButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 4,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Start",
+              "font": "CarterOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 40,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Start",
+                "font": "CarterOne-Regular.ttf",
+                "textAlignment": "center",
+                "characterSize": 40,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        },
+        {
+          "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
+          "name": "ExitButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 4,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Exit",
+              "font": "CarterOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 40,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Exit",
+                "font": "CarterOne-Regular.ttf",
+                "textAlignment": "center",
+                "characterSize": 40,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "TItleBackground",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\menu background.webp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1792,
+                            "y": 0
+                          },
+                          {
+                            "x": 1792,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Logo"
+          },
+          {
+            "objectName": "StartButton"
+          },
+          {
+            "objectName": "ExitButton"
+          },
+          {
+            "objectName": "TItleBackground"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetFullScreen"
+              },
+              "parameters": [
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "StartButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "ExitButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+              },
+              "parameters": [
+                "StartButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sfx\\click.mp3",
+                "",
+                "80",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
+              },
+              "parameters": [
+                "ExitButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sfx\\click.mp3",
+                "",
+                "80",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "HorizontalDash",
+          "type": "AdvancedJump::HorizontalDash"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "PlatformerConfigurationStack",
+          "type": "AdvancedJump::PlatformerConfigurationStack"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
       "mangledName": "Scene",
       "name": "Scene",
       "r": 209,
@@ -12567,7 +13241,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9296875000000785,
+        "zoomFactor": 0.16572117247528434,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12875,8 +13549,8 @@
           "name": "JumpGold",
           "persistentUuid": "b03ee1bb-5e25-4598-8d51-e8a2f39dcc90",
           "width": 0,
-          "x": 2889,
-          "y": 202,
+          "x": 2873,
+          "y": 198,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -12891,8 +13565,8 @@
           "name": "Gold_Coin_hover2",
           "persistentUuid": "7896b1ad-01e7-4856-be97-242f2bf78875",
           "width": 25,
-          "x": 2922,
-          "y": 202,
+          "x": 2906,
+          "y": 198,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -13225,22 +13899,6 @@
           "height": 24,
           "layer": "",
           "name": "Platforms",
-          "persistentUuid": "498590c3-9deb-40e1-8147-61ec38f2d1cb",
-          "width": 212,
-          "x": 4641,
-          "y": -377,
-          "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 24,
-          "layer": "",
-          "name": "Platforms",
           "persistentUuid": "186929b0-ba4d-4c0c-84a4-e0895318e81c",
           "width": 187,
           "x": 2758,
@@ -13390,36 +14048,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Gold_Coin_Pickup",
-          "persistentUuid": "772b67fe-d068-4002-aafb-4de9573cef4b",
-          "width": 0,
-          "x": 1442,
-          "y": 96,
-          "zOrder": 58,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Gold_Coin_Pickup",
-          "persistentUuid": "6e0bd1ab-b8af-4358-8a2e-dc28c468e4e6",
-          "width": 0,
-          "x": 1608,
-          "y": 89,
-          "zOrder": 59,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 25,
@@ -13460,7 +14088,7 @@
           "persistentUuid": "1ddbbb3b-9096-47a0-9de7-0872c651882d",
           "width": 187,
           "x": 2057,
-          "y": -589,
+          "y": -634,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -13648,8 +14276,8 @@
           "name": "Platforms",
           "persistentUuid": "4ef8f88d-c15a-42ce-95e5-dde9b590bfbd",
           "width": 164,
-          "x": 4937,
-          "y": -560,
+          "x": 4875,
+          "y": -563,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -13664,8 +14292,8 @@
           "name": "Platforms",
           "persistentUuid": "a124fee9-074b-4d97-ab37-d12edd27cbc1",
           "width": 95,
-          "x": 4769,
-          "y": -779,
+          "x": 4983,
+          "y": -993,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -13882,13 +14510,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 85,
+          "height": 84,
           "layer": "",
           "name": "Player",
           "persistentUuid": "cc960f6b-0794-4972-8e23-05c6ffce7102",
-          "width": 66,
+          "width": 65,
           "x": -2,
-          "y": 328,
+          "y": 329,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -13904,9 +14532,234 @@
           "name": "JumpPickup",
           "persistentUuid": "12079723-901c-440a-a042-b51e7c2ec04c",
           "width": 92,
-          "x": 2870,
-          "y": 221,
+          "x": 2854,
+          "y": 217,
           "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "layer": "",
+          "name": "Platforms",
+          "persistentUuid": "acacb7d2-49c9-4f98-a2f6-89984dd0ff6c",
+          "width": 187,
+          "x": 1687,
+          "y": -904,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "layer": "",
+          "name": "Platforms",
+          "persistentUuid": "a2adff31-0cf5-4cb8-b22b-98f10702ca84",
+          "width": 187,
+          "x": 1345,
+          "y": -644,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "layer": "",
+          "name": "Platforms",
+          "persistentUuid": "3aef671d-8f33-41f2-b2cb-924d4c63a298",
+          "width": 187,
+          "x": 1628,
+          "y": -152,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "grassPlatform",
+          "persistentUuid": "fef4dc73-ef5a-4f8c-a9dc-9ab202c75ab0",
+          "width": 486,
+          "x": 5404,
+          "y": -1082,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Left",
+          "persistentUuid": "54c95bed-6292-40ad-9749-eced67370f9d",
+          "width": 0,
+          "x": 5868,
+          "y": -1115,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Right",
+          "persistentUuid": "bdde75f9-e8da-4bcd-979f-774df0a02e47",
+          "width": 0,
+          "x": 5400,
+          "y": -1112,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "10167517-2d56-4709-88d5-83afc864297e",
+          "width": 0,
+          "x": 5799,
+          "y": -1109,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "grassPlatform",
+          "persistentUuid": "4968f561-08e3-4a43-a4c2-65443275583f",
+          "width": 360,
+          "x": 660,
+          "y": -646,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "layer": "",
+          "name": "Platforms",
+          "persistentUuid": "043a11bc-e5b9-4c8a-8842-b6015d1c7b1d",
+          "width": 375,
+          "x": 1003,
+          "y": -927,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "4195fb70-88e4-441a-8b7c-4a177f9d8c6f",
+          "width": 0,
+          "x": 927,
+          "y": -678,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Left",
+          "persistentUuid": "c3e41009-40ba-4d7d-b5b4-cc622aa9866a",
+          "width": 0,
+          "x": 992,
+          "y": -671,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Right",
+          "persistentUuid": "d41efa94-8f9e-4b34-9c53-9ffa321ee4f5",
+          "width": 0,
+          "x": 666,
+          "y": -679,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "layer": "",
+          "name": "Platforms",
+          "persistentUuid": "7b9784d8-bac1-466f-bf18-5607edf7fc5b",
+          "width": 187,
+          "x": 1840,
+          "y": -392,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "layer": "",
+          "name": "Platforms",
+          "persistentUuid": "69b3237a-37ff-4695-bc76-bb232bb26aa2",
+          "width": 514,
+          "x": 822,
+          "y": -158,
+          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
