@@ -6867,6 +6867,69 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Red/p1_stand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Red\\p1_stand.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Red/p1_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Red\\p1_jump.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Red/p1_walk01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Red\\p1_walk01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Red/p1_walk02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Red\\p1_walk02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Red/p1_walk03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Red\\p1_walk03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Red/p1_walk04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Red\\p1_walk04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Skins/Red/p1_walk05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skins\\Red\\p1_walk05.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7537,6 +7600,294 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Idle-r",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_stand.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jumping-r",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_jump.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking-r",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.05,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_walk01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_walk02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_walk03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_walk04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_walk05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7869,6 +8220,582 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "p1_walk05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle-p",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Purple\\p1_standp.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jumping-p",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Purple\\p1_jumpp.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking-p",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.05,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Purple\\p1_walk01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Purple\\p1_walk02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Purple\\p1_walk03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Purple\\p1_walk04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Purple\\p1_walk05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle-r",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_stand.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jumping -r",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_jump.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking-r",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.05,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_walk01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_walk02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_walk03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_walk04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 92
+                      },
+                      {
+                        "x": 3,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Skins\\Red\\p1_walk05.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11640,7 +12567,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.4790395861758634,
+        "zoomFactor": 0.9296875000000785,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12955,13 +13882,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 109,
+          "height": 85,
           "layer": "",
           "name": "Player",
           "persistentUuid": "cc960f6b-0794-4972-8e23-05c6ffce7102",
-          "width": 85,
+          "width": 66,
           "x": -2,
-          "y": 304,
+          "y": 328,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -30036,6 +30963,16 @@
                 "yes",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "skin",
+                "=",
+                "\"default\""
+              ]
             }
           ]
         },
@@ -32366,7 +33303,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.993443349825959,
+        "zoomFactor": 0.841642812537312,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -33182,6 +34119,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "shopitem_r",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Skins\\Red\\p1_stand.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 0
+                          },
+                          {
+                            "x": 68,
+                            "y": 0
+                          },
+                          {
+                            "x": 68,
+                            "y": 92
+                          },
+                          {
+                            "x": 3,
+                            "y": 92
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -33189,6 +34186,9 @@
         "children": [
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "shopitem_r"
           },
           {
             "objectName": "BackButton2"
@@ -33448,6 +34448,70 @@
               "parameters": [
                 "Shop_ID",
                 "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "skin",
+                "=",
+                "\"default\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sfx\\purchase.mp3",
+                "",
+                "30",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "BuyButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Shop_ID",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Stars",
+                ">=",
                 "1"
               ]
             },
@@ -33485,8 +34549,57 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "BuyButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Shop_ID",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "skin",
+                "=",
+                "\"r\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sfx\\purchase.mp3",
+                "",
+                "30",
+                "1"
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -33625,6 +34738,81 @@
                     "Text",
                     "=",
                     "\"1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "shopitem_r",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Shop_ID",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SHOPItem_p",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "shopitem_r",
+                    "580",
+                    "155",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "shopitem_r",
+                    "Scale",
+                    "=",
+                    "2.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RequiredStars",
+                    "Text",
+                    "=",
+                    "\"2\""
                   ]
                 }
               ]
@@ -35508,13 +36696,12 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
                         "value": "VarGlobalTxt"
                       },
                       "parameters": [
                         "skin",
                         "=",
-                        "\"p\""
+                        "\"default\""
                       ]
                     }
                   ],
@@ -35656,7 +36843,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Player Dash",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -36154,6 +37340,150 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "skin",
+                "=",
+                "\"r\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::JumpSustainTime"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "=",
+                    "0.4"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Jumping-r\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Walking-r\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Idle-r\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,

@@ -3,3 +3,6 @@ remove green
 -33
 +57
 +23
+
+Red:
+remove green and blue
