@@ -13149,8 +13149,8 @@
               "parameters": [
                 "",
                 "Title Theme.mp3",
-                "",
-                "20",
+                "yes",
+                "30",
                 ""
               ]
             }
@@ -13388,7 +13388,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.688853694704298,
+        "zoomFactor": 0.18305734955561911,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -37161,6 +37161,16 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Stars",
+                ">=",
+                "2"
+              ]
             }
           ],
           "actions": [
