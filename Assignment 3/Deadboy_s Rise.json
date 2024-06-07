@@ -6997,6 +6997,68 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sign.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sign.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Graveyard/Objects/b0f3a7be341da8af7ed21d5413d9d79e1b023f099efc34c65edb4e8b536da4f2_Sign.png",
+          "name": "Sign.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enter Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enter Key.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/6affc681f6be0e8faf9565c9768bb3d719e6ef666372d0eecb0cda0893fa8d64_Enter Key.png",
+          "name": "Enter Key.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tutorial-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tutorial-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tutorial-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tutorial-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tutorial-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tutorial-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tutorial-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tutorial-4.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13326,7 +13388,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8141881203710704,
+        "zoomFactor": 1.688853694704298,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14854,13 +14916,29 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "HUD",
-          "name": "Timer",
-          "persistentUuid": "1a3a8034-9fd6-43b6-86c8-cd84c0680712",
+          "layer": "",
+          "name": "Sign",
+          "persistentUuid": "6758dc6e-d335-45ea-a957-5ed787c8150e",
           "width": 0,
-          "x": 1211,
-          "y": -1,
+          "x": 85,
+          "y": 364,
           "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Sign2",
+          "persistentUuid": "672162d3-e6b8-4683-aba5-1f156b1e0319",
+          "width": 0,
+          "x": 234,
+          "y": 364,
+          "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31398,6 +31476,522 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "83cac724a83c31df43e3b1129188665e4ea54e4c40217d41fe4bf7064e617375",
+          "name": "Sign",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sign.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 46,
+                            "y": 0
+                          },
+                          {
+                            "x": 46,
+                            "y": 47
+                          },
+                          {
+                            "x": 0,
+                            "y": 47
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "5d7ffef9431152fb1a998de5c91e7904c7de0e0babc9d06f4a9a0096734c693c",
+          "name": "EnterKey",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Enter Key.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 6
+                          },
+                          {
+                            "x": 96,
+                            "y": 6
+                          },
+                          {
+                            "x": 96,
+                            "y": 91
+                          },
+                          {
+                            "x": 4,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "tutorial_1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Tutorial-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 400
+                          },
+                          {
+                            "x": 0,
+                            "y": 400
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Tutorial-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 400
+                          },
+                          {
+                            "x": 0,
+                            "y": 400
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "83cac724a83c31df43e3b1129188665e4ea54e4c40217d41fe4bf7064e617375",
+          "name": "Sign2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sign.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 46,
+                            "y": 0
+                          },
+                          {
+                            "x": 46,
+                            "y": 47
+                          },
+                          {
+                            "x": 0,
+                            "y": 47
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "5d7ffef9431152fb1a998de5c91e7904c7de0e0babc9d06f4a9a0096734c693c",
+          "name": "EnterKey2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Enter Key.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 6
+                          },
+                          {
+                            "x": 96,
+                            "y": 6
+                          },
+                          {
+                            "x": 96,
+                            "y": 91
+                          },
+                          {
+                            "x": 4,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "tutorial_2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Tutorial-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 126,
+                            "y": 57
+                          },
+                          {
+                            "x": 1764,
+                            "y": 57
+                          },
+                          {
+                            "x": 1764,
+                            "y": 158
+                          },
+                          {
+                            "x": 126,
+                            "y": 158
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tutorial_3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Tutorial-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 258,
+                            "y": 39
+                          },
+                          {
+                            "x": 1663,
+                            "y": 39
+                          },
+                          {
+                            "x": 1663,
+                            "y": 175
+                          },
+                          {
+                            "x": 258,
+                            "y": 175
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tutorial_4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Tutorial-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 214
+                          },
+                          {
+                            "x": 0,
+                            "y": 214
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -31851,6 +32445,30 @@
           },
           {
             "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "Sign"
+          },
+          {
+            "objectName": "Sign2"
+          },
+          {
+            "objectName": "EnterKey"
+          },
+          {
+            "objectName": "EnterKey2"
+          },
+          {
+            "objectName": "tutorial_2"
+          },
+          {
+            "objectName": "tutorial_1"
+          },
+          {
+            "objectName": "Tutorial_3"
+          },
+          {
+            "objectName": "Tutorial_4"
           }
         ]
       },
@@ -32650,6 +33268,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Skins",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33183,6 +33802,99 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "UI",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "canDoubleJump",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "JumpPickup",
+                    "1190",
+                    "10",
+                    "\"HUD\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "JumpPickup",
+                    "Scale",
+                    "=",
+                    "0.075"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "canDash",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "DashPickup",
+                    "1090",
+                    "10",
+                    "\"HUD\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DashPickup",
+                    "Scale",
+                    "=",
+                    "0.075"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
           "name": "Pickups",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33485,6 +34197,495 @@
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": []
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Tutorial",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Sign 1",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Sign",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "EnterKey",
+                        "86",
+                        "325",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "EnterKey",
+                        "Scale",
+                        "=",
+                        "0.4"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Sign",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "EnterKey",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "tutorial_1",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Sign",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Return"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "tutorial_1",
+                        "-7",
+                        "580",
+                        "\"HUD\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "tutorial_1",
+                        "Scale",
+                        "=",
+                        "0.7"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Sign 2",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Sign2",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "EnterKey2",
+                        "235",
+                        "325",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "EnterKey2",
+                        "Scale",
+                        "=",
+                        "0.4"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Sign2",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "EnterKey2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "tutorial_2",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Sign2",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Return"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "tutorial_2",
+                        "-7",
+                        "580",
+                        "\"HUD\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "tutorial_2",
+                        "Scale",
+                        "=",
+                        "0.7"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "tutorial 3",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "canDoubleJump",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Tutorial_3",
+                        "-7",
+                        "580",
+                        "\"HUD\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Tutorial_3",
+                        "Scale",
+                        "=",
+                        "0.7"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"tutorialtimer\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"tutorialtimer\"",
+                        ">=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Tutorial_3",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "tutorial 4",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "canDash",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Tutorial_4",
+                        "-7",
+                        "580",
+                        "\"HUD\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Tutorial_4",
+                        "Scale",
+                        "=",
+                        "0.7"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"tutorialtimer\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"tutorialtimer\"",
+                        ">=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Tutorial_4",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -36324,7 +37525,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3216911764705964,
+        "zoomFactor": 0.8141881203710114,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -37401,6 +38602,38 @@
           "x": -3133,
           "y": -2686,
           "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 360,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "ec33c9a8-6060-479a-9a4a-a196f09edf1b",
+          "width": 579,
+          "x": -663,
+          "y": 473,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "Tower_Platform",
+          "persistentUuid": "901604b0-75ab-4e1f-a018-30a89484daf2",
+          "width": 579,
+          "x": -663,
+          "y": 445,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
