@@ -16026,7 +16026,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8141881203710765,
+        "zoomFactor": 0.40575189059442507,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -35265,6 +35265,502 @@
           ]
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Tutorial",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Sign 1",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Sign",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "EnterKey",
+                        "86",
+                        "325",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "EnterKey",
+                        "Scale",
+                        "=",
+                        "0.4"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Sign",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "EnterKey",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "tutorial_1",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Sign",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Return"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "tutorial_1",
+                        "-7",
+                        "580",
+                        "\"HUD\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "tutorial_1",
+                        "Scale",
+                        "=",
+                        "0.7"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Sign 2",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Sign2",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "EnterKey2",
+                        "235",
+                        "325",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "EnterKey2",
+                        "Scale",
+                        "=",
+                        "0.4"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Sign2",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "EnterKey2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "tutorial_2",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Sign2",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Return"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "tutorial_2",
+                        "-7",
+                        "580",
+                        "\"HUD\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "tutorial_2",
+                        "Scale",
+                        "=",
+                        "0.7"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "tutorial 3",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "canDoubleJump",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Tutorial_3",
+                        "-7",
+                        "580",
+                        "\"HUD\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Tutorial_3",
+                        "Scale",
+                        "=",
+                        "0.7"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"tutorialtimer\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"tutorialtimer\"",
+                        ">=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Tutorial_3",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "tutorial 4",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "canDash",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Tutorial_4",
+                        "-7",
+                        "580",
+                        "\"HUD\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Tutorial_4",
+                        "Scale",
+                        "=",
+                        "0.7"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"tutorialtimer\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"tutorialtimer\"",
+                        ">=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Tutorial_4",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Common"
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -36110,6 +36606,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": true,
           "folded": true,
           "name": "Slime",
           "source": "",
@@ -36479,6 +36976,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": true,
           "folded": true,
           "name": "UI",
           "source": "",
@@ -36572,6 +37070,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": true,
           "folded": true,
           "name": "Pickups",
           "source": "",
@@ -36887,495 +37386,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
-          "name": "Tutorial",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "folded": true,
-              "name": "Sign 1",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Sign",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "EnterKey",
-                        "86",
-                        "325",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "EnterKey",
-                        "Scale",
-                        "=",
-                        "0.4"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Sign",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "EnterKey",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "tutorial_1",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Sign",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Return"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "tutorial_1",
-                        "-7",
-                        "580",
-                        "\"HUD\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "tutorial_1",
-                        "Scale",
-                        "=",
-                        "0.7"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "folded": true,
-              "name": "Sign 2",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Sign2",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "EnterKey2",
-                        "235",
-                        "325",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "EnterKey2",
-                        "Scale",
-                        "=",
-                        "0.4"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Sign2",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "EnterKey2",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "tutorial_2",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Sign2",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Return"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "tutorial_2",
-                        "-7",
-                        "580",
-                        "\"HUD\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "tutorial_2",
-                        "Scale",
-                        "=",
-                        "0.7"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "tutorial 3",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Player",
-                        "canDoubleJump",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Tutorial_3",
-                        "-7",
-                        "580",
-                        "\"HUD\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Tutorial_3",
-                        "Scale",
-                        "=",
-                        "0.7"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"tutorialtimer\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CompareTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"tutorialtimer\"",
-                        ">=",
-                        "3"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Tutorial_3",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "tutorial 4",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Player",
-                        "canDash",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Tutorial_4",
-                        "-7",
-                        "580",
-                        "\"HUD\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Tutorial_4",
-                        "Scale",
-                        "=",
-                        "0.7"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"tutorialtimer\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CompareTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"tutorialtimer\"",
-                        ">=",
-                        "3"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Tutorial_4",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "disabled": true,
           "folded": true,
           "name": "Flag",
@@ -37456,13 +37466,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Common"
         }
       ],
       "layers": [
@@ -37656,7 +37659,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4335774304702494,
+        "zoomFactor": 0.367325754505893,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -39313,6 +39316,25 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Common"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "JP: Disabled, incase you want to revert changes."
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -40264,6 +40286,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": true,
           "folded": true,
           "name": "Slime",
           "source": "",
@@ -40633,6 +40656,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": true,
           "folded": true,
           "name": "Pickups",
           "source": "",
@@ -41033,13 +41057,6 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Common"
         }
       ],
       "layers": [
@@ -41361,7 +41378,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Controls",
+          "name": "PlayerStuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -41370,359 +41387,20 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Keyboard Controls",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "d"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Flippable",
-                        "no"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "ShadowClone",
-                        "Flippable",
-                        "no"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "a"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Flippable",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "ShadowClone",
-                        "Flippable",
-                        "yes"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Space"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "r"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetSceneVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "dead",
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
               "folded": true,
-              "name": "Player Controls",
+              "name": "Controls",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::IsJumping"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::IsFalling"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": []
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsJumping"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::JumpSustainTime"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject",
-                        "=",
-                        "0.4"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsFalling"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Animation",
-                        "=",
-                        "\"Jumping\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Idle\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Walking\""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "folded": true,
-              "name": "Player Dash",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Player",
-                        "canDash",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [],
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Keyboard Controls",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -41732,146 +41410,91 @@
                             "value": "KeyPressed"
                           },
                           "parameters": [
-                            "Player",
-                            "LShift"
+                            "",
+                            "d"
                           ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "AdvancedJump::HorizontalDash::SimulateDashKey"
-                          },
-                          "parameters": [
-                            "Player",
-                            "HorizontalDash",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AdvancedJump::HorizontalDash::IsDashing"
-                          },
-                          "parameters": [
-                            "Player",
-                            "HorizontalDash",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ShadowClones::AnimateShadowClones"
-                          },
-                          "parameters": [
-                            "",
-                            "Player",
-                            "ShadowClone",
-                            "10",
-                            "1",
-                            "25",
-                            "1",
-                            "\"\"",
-                            "0",
-                            "yes",
-                            "yes",
-                            "yes",
-                            "yes",
-                            "yes",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "ShadowClone",
-                            "\"clone\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CompareObjectTimer"
-                          },
-                          "parameters": [
-                            "ShadowClone",
-                            "\"clone\"",
-                            ">",
-                            "0.08"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ShadowClones::DeleteShadowClones"
-                          },
-                          "parameters": [
-                            "",
-                            "Player",
-                            "ShadowClone",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "folded": true,
-              "name": "Player Double Jump",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Player",
-                        "canDoubleJump",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsFalling"
+                            "value": "PlatformBehavior::SimulateRightKey"
                           },
                           "parameters": [
                             "Player",
                             "PlatformerObject"
                           ]
                         },
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Flippable",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "ShadowClone",
+                            "Flippable",
+                            "no"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "a"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Flippable",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "ShadowClone",
+                            "Flippable",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
                         {
                           "type": {
                             "value": "KeyPressed"
@@ -41880,16 +41503,30 @@
                             "",
                             "Space"
                           ]
-                        },
+                        }
+                      ],
+                      "actions": [
                         {
                           "type": {
-                            "value": "VarObjet"
+                            "value": "PlatformBehavior::SimulateJumpKey"
                           },
                           "parameters": [
                             "Player",
-                            "jumpCount",
-                            "<",
-                            "1"
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "r"
                           ]
                         },
                         {
@@ -41902,7 +41539,35 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::SetCanJump"
+                            "value": "SetSceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "dead",
+                            "True"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Player Controls",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::IsJumping"
                           },
                           "parameters": [
                             "Player",
@@ -41911,16 +41576,26 @@
                         },
                         {
                           "type": {
-                            "value": "ModVarObjet"
+                            "inverted": true,
+                            "value": "PlatformBehavior::IsFalling"
                           },
                           "parameters": [
                             "Player",
-                            "jumpCount",
-                            "+",
-                            "1"
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
                           ]
                         }
-                      ]
+                      ],
+                      "actions": []
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -41933,51 +41608,18 @@
                             "Player",
                             "PlatformerObject"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Player",
-                            "jumpCount",
-                            "=",
-                            "1"
-                          ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "ShadowClones::AnimateShadowClones"
+                            "value": "PlatformBehavior::JumpSustainTime"
                           },
                           "parameters": [
-                            "",
                             "Player",
-                            "ShadowClone",
-                            "10",
-                            "1",
-                            "25",
-                            "1",
-                            "\"\"",
-                            "0",
-                            "yes",
-                            "yes",
-                            "yes",
-                            "yes",
-                            "yes",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "ShadowClone",
-                            "\"clone2\""
+                            "PlatformerObject",
+                            "=",
+                            "0.4"
                           ]
                         }
                       ]
@@ -41987,26 +41629,24 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "CompareObjectTimer"
+                            "value": "PlatformBehavior::IsFalling"
                           },
                           "parameters": [
-                            "ShadowClone",
-                            "\"clone2\"",
-                            ">=",
-                            "0.08"
+                            "Player",
+                            "PlatformerObject"
                           ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "ShadowClones::DeleteShadowClones"
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "",
                             "Player",
-                            "ShadowClone",
-                            ""
+                            "Animation",
+                            "=",
+                            "\"Jumping\""
                           ]
                         }
                       ]
@@ -42024,16 +41664,656 @@
                           ]
                         }
                       ],
-                      "actions": [
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation",
+                                "=",
+                                "\"Idle\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation",
+                                "=",
+                                "\"Walking\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Player Dash",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
                         {
                           "type": {
-                            "value": "ModVarObjet"
+                            "value": "ObjectVariableAsBoolean"
                           },
                           "parameters": [
                             "Player",
-                            "jumpCount",
+                            "canDash",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "Player",
+                                "LShift"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AdvancedJump::HorizontalDash::SimulateDashKey"
+                              },
+                              "parameters": [
+                                "Player",
+                                "HorizontalDash",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AdvancedJump::HorizontalDash::IsDashing"
+                              },
+                              "parameters": [
+                                "Player",
+                                "HorizontalDash",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ShadowClones::AnimateShadowClones"
+                              },
+                              "parameters": [
+                                "",
+                                "Player",
+                                "ShadowClone",
+                                "10",
+                                "1",
+                                "25",
+                                "1",
+                                "\"\"",
+                                "0",
+                                "yes",
+                                "yes",
+                                "yes",
+                                "yes",
+                                "yes",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "ShadowClone",
+                                "\"clone\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "ShadowClone",
+                                "\"clone\"",
+                                ">",
+                                "0.08"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ShadowClones::DeleteShadowClones"
+                              },
+                              "parameters": [
+                                "",
+                                "Player",
+                                "ShadowClone",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Player Double Jump",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player",
+                            "canDoubleJump",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsFalling"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Space"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpCount",
+                                "<",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::SetCanJump"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpCount",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsJumping"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpCount",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ShadowClones::AnimateShadowClones"
+                              },
+                              "parameters": [
+                                "",
+                                "Player",
+                                "ShadowClone",
+                                "10",
+                                "1",
+                                "25",
+                                "1",
+                                "\"\"",
+                                "0",
+                                "yes",
+                                "yes",
+                                "yes",
+                                "yes",
+                                "yes",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "ShadowClone",
+                                "\"clone2\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "ShadowClone",
+                                "\"clone2\"",
+                                ">=",
+                                "0.08"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ShadowClones::DeleteShadowClones"
+                              },
+                              "parameters": [
+                                "",
+                                "Player",
+                                "ShadowClone",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsOnFloor"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Player",
+                                "jumpCount",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "UI",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "canDoubleJump",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "JumpPickup",
+                        "1190",
+                        "10",
+                        "\"HUD\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "JumpPickup",
+                        "Scale",
+                        "=",
+                        "0.075"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "canDash",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "DashPickup",
+                        "1090",
+                        "10",
+                        "\"HUD\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "DashPickup",
+                        "Scale",
+                        "=",
+                        "0.075"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Skins",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "skin",
+                        "=",
+                        "\"p\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsJumping"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::JumpSustainTime"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject",
                             "=",
-                            "0"
+                            "0.4"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsFalling"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Jumping-p\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation",
+                                "=",
+                                "\"Walking-p\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation",
+                                "=",
+                                "\"Idle-p\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -42052,153 +42332,409 @@
           "colorR": 74,
           "creationTime": 0,
           "folded": true,
-          "name": "Skins",
+          "name": "LevelStuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobalTxt"
-                  },
-                  "parameters": [
-                    "skin",
-                    "=",
-                    "\"p\""
-                  ]
-                }
-              ],
-              "actions": [],
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Pickups",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsJumping"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::JumpSustainTime"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject",
-                        "=",
-                        "0.4"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsFalling"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Animation",
-                        "=",
-                        "\"Jumping-p\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [],
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Score/Gold",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                            "value": "CollisionNP"
                           },
                           "parameters": [
                             "Player",
-                            "PlatformerObject"
+                            "Gold_Coin_Pickup",
+                            "",
+                            "",
+                            ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                            "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Walking-p\""
+                            "Gold",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Gold_Coin_Pickup",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "coin.wav",
+                            "",
+                            "15",
+                            "1"
                           ]
                         }
                       ]
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Gold",
+                            "Text",
+                            "=",
+                            "GlobalVariableString(Gold)"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Player Dash Pickup",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                            "value": "CollisionNP"
                           },
                           "parameters": [
                             "Player",
-                            "PlatformerObject"
+                            "DashPickup",
+                            "",
+                            "",
+                            ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Gold",
+                            ">=",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "DashPickup",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "DashGold",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Gold_Coin_hover",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
                           },
                           "parameters": [
                             "Player",
-                            "Animation",
-                            "=",
-                            "\"Idle-p\""
+                            "canDash",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "coin.wav",
+                            "",
+                            "20",
+                            "0.7"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Gold",
+                            "-",
+                            "3"
                           ]
                         }
                       ]
                     }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Player Double Jump Pickup",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "JumpPickup",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Gold",
+                            ">=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "JumpPickup",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "JumpGold",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Gold_Coin_hover2",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player",
+                            "canDoubleJump",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "coin.wav",
+                            "",
+                            "20",
+                            "1.3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "Gold",
+                            "-",
+                            "4"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Flag",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "FlagHitBox"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "FlagHitBox",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Gold",
+                        ">=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Menu\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Gold",
+                        "-",
+                        "6"
+                      ]
+                    }
                   ]
                 }
-              ]
+              ],
+              "parameters": []
             }
           ],
           "parameters": []
@@ -42208,6 +42744,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Combat",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -42217,10 +42754,23 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Death",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "JP: You can move the respawnPoint anywhere u want"
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -42570,90 +43120,163 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
-          "name": "Flag",
+          "name": "Enemies",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Slime",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "FlagHitBox"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "FlagHitBox",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Gold",
-                    ">=",
-                    "6"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Menu\"",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Slime",
+                        "Directions",
+                        "=",
+                        "\"Left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Slime",
+                        "180",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "Slime",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Gold",
-                    "-",
-                    "6"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Slime",
+                        "Directions",
+                        "=",
+                        "\"Right\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Slime",
+                        "0",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "Slime",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Slime",
+                        "Left",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Slime",
+                        "Directions",
+                        "=",
+                        "\"Left\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Slime",
+                        "Right",
+                        "=",
+                        "\"Right\"",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Slime",
+                        "Directions",
+                        "=",
+                        "\"Right\""
+                      ]
+                    }
                   ]
                 }
-              ]
+              ],
+              "parameters": []
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
     }
