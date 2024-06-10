@@ -7068,6 +7068,875 @@
         "name": "respawnPoint",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss Golem_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c37d8e6037173138b08801a49a41bde882ad290eb7feef48cb884e86b2675415_Boss Golem_Idle_6.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/c37d8e6037173138b08801a49a41bde882ad290eb7feef48cb884e86b2675415_Boss Golem_Idle_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss Golem_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Golem_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/e1cf1fd3782f02c8d88c31f800e03035b381d36af8da4bbb498893aff56b5339_Boss Golem_Idle_1.png",
+          "name": "Boss Golem_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss Golem_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Golem_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/54991f230e7bee9999e585005fc94932435b1267cea7ccf075c233cea0b55e88_Boss Golem_Idle_2.png",
+          "name": "Boss Golem_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss Golem_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Golem_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/af183bf6f42608a5ec948fbfd57381598f9ed38557e04f2ba1e7f9ceb87cc5a4_Boss Golem_Idle_3.png",
+          "name": "Boss Golem_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss Golem_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Golem_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/3161d82b9a6dd1d362a295298dd4c36553ea40323b451a74fea3779f5471d772_Boss Golem_Idle_4.png",
+          "name": "Boss Golem_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss Golem_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Golem_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/4c235c015ca8e1741c2443100cd0d13f9a5b55087d9ec004632a4df0eb04bcf0_Boss Golem_Idle_5.png",
+          "name": "Boss Golem_Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Boss Golem_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Golem_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/c37d8e6037173138b08801a49a41bde882ad290eb7feef48cb884e86b2675415_Boss Golem_Idle_6.png",
+          "name": "Boss Golem_Idle_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_1.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/9dd0987618c5e26dc95dcb3a35d663673ada0fedc0f3dbc6727bc1d7388153b3_Laser Turret_1.png",
+          "name": "Laser Turret_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_10.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/0d8e22b330a8ba0747f432020cfeda0f560b1498ebadd8a8fff006aa0fdd81a4_Laser Turret_10.png",
+          "name": "Laser Turret_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_11.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/8ebebd601dfe0ceb70f5802ec5b231720c492f24d21258b9dbabbd67333d332b_Laser Turret_11.png",
+          "name": "Laser Turret_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_12.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/49f2696da5dccb4c9b361e51b691c2c63cc213917e4e515544b5de50c638c5dc_Laser Turret_12.png",
+          "name": "Laser Turret_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_13.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/7175a1b485e58ff6204698963502e9a5857310b6762e93248ad03f79d44a4839_Laser Turret_13.png",
+          "name": "Laser Turret_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_14.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/f668a72cd45846b397b313ed75c3753dd7d0a9200bae3e2f54949b76ad05eaa8_Laser Turret_14.png",
+          "name": "Laser Turret_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_15.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/0d7496ec7df000e220aeac33c01a1bd35b7616d75d7b0b855085977631cb765d_Laser Turret_15.png",
+          "name": "Laser Turret_15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_16.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/1ffddf32f52f61f0c74d91ed2c90a7c0118d49009eb89d7b46a060307938c3bd_Laser Turret_16.png",
+          "name": "Laser Turret_16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_17.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/89617bcbb1de004f8feb872b027e6bb8c8f2a985a5af47c9134b9959040de9ae_Laser Turret_17.png",
+          "name": "Laser Turret_17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_2.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/2aae04a93f90588623043c0a7829202dbbe2196a08fdab151a989f458e8b5df6_Laser Turret_2.png",
+          "name": "Laser Turret_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_3.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/91f4a1f623d01faf4b787658210d9abf0b4bfacdcf3f173877a1fd674b87fd5c_Laser Turret_3.png",
+          "name": "Laser Turret_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_4.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/db8b115f06e240a82ff62dde6b7ca7de6848a84d6d24d6077dff6548a0bcf79f_Laser Turret_4.png",
+          "name": "Laser Turret_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_5.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/ee73e9f24bbc497eccd08aa4778d01e399aca5df546e3927b9a3e7981dabc06b_Laser Turret_5.png",
+          "name": "Laser Turret_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_6.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/0dc7f001d252a536a0857d564ccf6311e7ead401dbe327fdccb9e0e47a0bd1ac_Laser Turret_6.png",
+          "name": "Laser Turret_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_7.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/cda7aea89f830a0f4fd0eb80b42ced8cf45e8ebaa0e3daf3430c5ae0d15a884e_Laser Turret_7.png",
+          "name": "Laser Turret_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_8.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/40ee7b9381c18ba0a43cfc275f245e3b934124d76515bda60c91bbe2bfb953ab_Laser Turret_8.png",
+          "name": "Laser Turret_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_9.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Laser Turret_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/03f79fe04d1fc724411f65789a8e745c901134984af248fd2e214b8c53a82beb_Laser Turret_9.png",
+          "name": "Laser Turret_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_18.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Laser Turret_18.png\",\"extension\":\".png\"}",
+        "name": "89617bcbb1de004f8feb872b027e6bb8c8f2a985a5af47c9134b9959040de9ae_Laser Turret_17.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/89617bcbb1de004f8feb872b027e6bb8c8f2a985a5af47c9134b9959040de9ae_Laser Turret_17.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1ffddf32f52f61f0c74d91ed2c90a7c0118d49009eb89d7b46a060307938c3bd_Laser Turret_16.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/1ffddf32f52f61f0c74d91ed2c90a7c0118d49009eb89d7b46a060307938c3bd_Laser Turret_16.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laser Turret_18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser Turret_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laser Turret_17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Boss Golem_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Boss Golem_Idle_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Boss Golem_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Boss Golem_Idle_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Boss Golem_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Boss Golem_Idle_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Boss Golem_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Boss Golem_Idle_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Boss Golem_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Boss Golem_Idle_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Boss Golem_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Boss Golem_Idle_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Boss Golem_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Boss Golem_Idle_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LaserTurret.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LaserTurret",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LaserTurret2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LaserTurret2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Enemies/Laser Turret_1.png\",\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Laser Turret_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Enemies/Laser Turret_2.png\",\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Laser Turret_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_18.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/Laser Turret_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\Laser Turret_19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/attack19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "attack19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemies/LaserTurret_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemies\\LaserTurret_Idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -16029,7 +16898,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2725359896773218,
+        "zoomFactor": 0.3437520241612678,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -37662,7 +38531,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.43357743047025193,
+        "zoomFactor": 0.56531580551265,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -41270,7 +42139,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998329975,
+        "zoomFactor": 0.624453782659999,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -41281,6 +42150,1480 @@
         "folderName": "__ROOT"
       },
       "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "HorizontalDash",
+          "type": "AdvancedJump::HorizontalDash"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "PlatformerConfigurationStack",
+          "type": "AdvancedJump::PlatformerConfigurationStack"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Testing",
+      "name": "Testing",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.7370816317994041,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "fd1672f8-a21f-472b-a8e0-0ef14ce73040",
+          "width": 1216,
+          "x": 64,
+          "y": 672,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "0b3901ab-7052-49b9-916c-9a78dc1b78dc",
+          "width": 0,
+          "x": 88,
+          "y": 580,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BossGolem",
+          "persistentUuid": "b00a1967-5fd7-4c24-8812-442119cb67aa",
+          "width": 160,
+          "x": 768,
+          "y": 512,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LaserTurret",
+          "persistentUuid": "f8cca49b-8c10-4846-81c8-48f0c8a13ef8",
+          "width": 128,
+          "x": 576,
+          "y": 544,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.0204081632653061,
+          "height": 50,
+          "layer": "",
+          "name": "Projectile",
+          "persistentUuid": "9a74db06-5678-4836-ac1b-12692e91caf8",
+          "width": 50,
+          "x": 352,
+          "y": 462,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "grassHalfMid.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "6c2c0980050ecd6850d4c31e30ea599795935bbdd57826e8269c8b1ce8601907",
+          "name": "BossGolem",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 275
+                          },
+                          {
+                            "x": 44,
+                            "y": 275
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 275
+                          },
+                          {
+                            "x": 44,
+                            "y": 275
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 275
+                          },
+                          {
+                            "x": 44,
+                            "y": 275
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 275
+                          },
+                          {
+                            "x": 44,
+                            "y": 275
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 275
+                          },
+                          {
+                            "x": 44,
+                            "y": 275
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 275
+                          },
+                          {
+                            "x": 44,
+                            "y": 275
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 25
+                          },
+                          {
+                            "x": 250,
+                            "y": 275
+                          },
+                          {
+                            "x": 44,
+                            "y": 275
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "31459127b3ba4c33d82e0709297226b8c413a03cb58290c9fc2133144edea525",
+          "name": "LaserTurret",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "idle2",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack2",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack3",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack4",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack5",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack6",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack7",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack8",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack9",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack10",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack11",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack12",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack13",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack14",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack15",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack16",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack17",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack18",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "attack19",
+                      "points": [
+                        {
+                          "name": "Gun",
+                          "x": 150,
+                          "y": 80
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 56,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 84
+                          },
+                          {
+                            "x": 244,
+                            "y": 300
+                          },
+                          {
+                            "x": 56,
+                            "y": 300
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Projectile",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "LaserTurret",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "LaserTurret2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 2
+                          },
+                          {
+                            "x": 98,
+                            "y": 2
+                          },
+                          {
+                            "x": 98,
+                            "y": 98
+                          },
+                          {
+                            "x": 2,
+                            "y": 98
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Golem",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "BossGolem"
+          },
+          {
+            "objectName": "LaserTurret"
+          },
+          {
+            "objectName": "Projectile"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Common"
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -42353,6 +44696,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "LevelStuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -43294,6 +45638,39 @@
                 }
               ],
               "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Turret",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Golem",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
