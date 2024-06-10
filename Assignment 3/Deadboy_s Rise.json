@@ -16026,7 +16026,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.40575189059442507,
+        "zoomFactor": 0.2725359896773218,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17469,7 +17469,7 @@
           "persistentUuid": "043a11bc-e5b9-4c8a-8842-b6015d1c7b1d",
           "width": 375,
           "x": 1003,
-          "y": -927,
+          "y": -940,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -37650,7 +37650,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -37658,8 +37658,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.367325754505893,
+        "snap": true,
+        "zoomFactor": 0.4789341884535405,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -37673,8 +37673,8 @@
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "a9298c96-15f8-44a2-950e-80e56209c9aa",
-          "width": 1280,
-          "x": 2,
+          "width": 1250,
+          "x": 32,
           "y": 689,
           "zOrder": 1,
           "numberProperties": [],
@@ -37689,8 +37689,8 @@
           "name": "Player",
           "persistentUuid": "255b952e-db53-4adb-8bcc-a1b21950e403",
           "width": 0,
-          "x": 18,
-          "y": 587,
+          "x": 32,
+          "y": 576,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -38076,7 +38076,7 @@
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "65e59460-00d1-4ea3-a0d7-1ed996dafe51",
-          "width": 378,
+          "width": 399,
           "x": -655,
           "y": 689,
           "zOrder": 31,
@@ -38744,30 +38744,14 @@
           "angle": 360,
           "customSize": true,
           "depth": 1,
-          "height": 80,
+          "height": 71,
           "layer": "",
           "name": "Spikes",
           "persistentUuid": "ec33c9a8-6060-479a-9a4a-a196f09edf1b",
-          "width": 579,
-          "x": -663,
-          "y": 473,
+          "width": 502,
+          "x": -662,
+          "y": 480,
           "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "layer": "",
-          "name": "Tower_Platform",
-          "persistentUuid": "901604b0-75ab-4e1f-a018-30a89484daf2",
-          "width": 579,
-          "x": -663,
-          "y": 445,
-          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38782,9 +38766,42 @@
           "name": "respawnPoint",
           "persistentUuid": "e0ffed1f-3b66-44ce-b394-f8234a19d820",
           "width": 64,
-          "x": 3,
-          "y": 440,
+          "x": 128,
+          "y": 576,
           "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "Tower_Platform",
+          "persistentUuid": "226aaee4-ac2f-42f8-b1b7-32da408dbef5",
+          "width": 503,
+          "x": -663,
+          "y": 448,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tower_Platform",
+          "persistentUuid": "6451bead-083e-409f-8c89-2cac9778871b",
+          "width": 1,
+          "x": -192,
+          "y": 448,
+          "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -41378,6 +41395,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "PlayerStuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -42079,6 +42097,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "UI",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -42331,7 +42350,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "LevelStuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -42341,7 +42359,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Pickups",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -43274,6 +43291,114 @@
                 }
               ],
               "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Debugging/Level Testing",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "z"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Num1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "canDoubleJump",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Num2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "canDash",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Num3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Gold",
+                        "+",
+                        "10000000000"
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
