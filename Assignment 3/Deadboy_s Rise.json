@@ -8833,6 +8833,50 @@
         "name": "assets\\Enemies\\Electric Turret_10",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Brick3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiled_Brick3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "47f2283327f1680c76d51acc8510f754c1e944641077f3a1c26d00bcbd16fd57_Tileset Piece 14.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/47f2283327f1680c76d51acc8510f754c1e944641077f3a1c26d00bcbd16fd57_Tileset Piece 14.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TombStone (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2b33e96d70c8e2ebf226f283b4779051f8093026870037ad479c44fd79a6ae65_TombStone (1).png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Graveyard/Objects/2b33e96d70c8e2ebf226f283b4779051f8093026870037ad479c44fd79a6ae65_TombStone (1).png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TombStone (1).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/TombStone (1).png\",\"extension\":\".png\"}",
+        "name": "assets\\TombStone (1).png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14469,6 +14513,108 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "death",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\TombStone (1)",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\TombStone (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 27,
+                        "y": 0
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 0,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "deathCounter",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+      "textAlignment": "left",
+      "characterSize": 26,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini.ttf",
+        "textAlignment": "left",
+        "characterSize": 26,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -14545,6 +14691,12 @@
       },
       {
         "objectName": "respawnPoint"
+      },
+      {
+        "objectName": "death"
+      },
+      {
+        "objectName": "deathCounter"
       }
     ]
   },
@@ -14555,6 +14707,12 @@
       "name": "skin",
       "type": "string",
       "value": ""
+    },
+    {
+      "folded": true,
+      "name": "death",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -17794,7 +17952,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3437520241612678,
+        "zoomFactor": 0.448197804541084,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -39427,7 +39585,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.56531580551265,
+        "zoomFactor": 0.4481978045410514,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -39458,7 +39616,7 @@
           "persistentUuid": "255b952e-db53-4adb-8bcc-a1b21950e403",
           "width": 0,
           "x": 32,
-          "y": 544,
+          "y": 576,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -43026,7 +43184,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -43034,19 +43192,864 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.624453782659999,
+        "snap": true,
+        "zoomFactor": 0.4950840073748919,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "a6069114-b795-4cf1-8c76-e3042f6aba8a",
+          "width": 0,
+          "x": 56,
+          "y": 548,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 4064,
+          "keepRatio": true,
+          "layer": "Background",
+          "locked": true,
+          "name": "background",
+          "persistentUuid": "5235777b-c674-47f5-aef6-02ca9cdd2854",
+          "sealed": true,
+          "width": 3488,
+          "x": -512,
+          "y": -256,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "bf8d7ec2-5020-46de-886e-59cd61b12925",
+          "width": 191,
+          "x": 1,
+          "y": 672,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 896,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "871438bb-766c-4fa4-bb70-0bb18952ce4a",
+          "width": 32,
+          "x": 544,
+          "y": 448,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "57d7d8dd-b368-436b-a6db-3e21f32e2e6d",
+          "width": 1024,
+          "x": 32,
+          "y": 2240,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "respawnPoint",
+          "persistentUuid": "e270859f-c34b-45c7-b377-9b3385373005",
+          "width": 0,
+          "x": 64,
+          "y": 576,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "Gold_Coin",
+          "persistentUuid": "efaafccb-bdeb-4e8e-8d7d-08c4ff9fcf94",
+          "width": 0,
+          "x": 32,
+          "y": 32,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 27,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "Gold",
+          "persistentUuid": "5b6385c6-4a7d-4822-a556-4c4940566af5",
+          "width": 81,
+          "x": 79,
+          "y": 37,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "4a1311c4-5d6d-4f2f-b850-e5e35d8459b7",
+          "width": 920,
+          "x": 52,
+          "y": 884,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "081f8d66-84f2-4550-aa8d-9efa5ddcc630",
+          "width": 128,
+          "x": 576,
+          "y": 448,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 224,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "dcc33d76-02ae-4e8c-9664-022fcb310cb8",
+          "width": 32,
+          "x": 672,
+          "y": 224,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Gold_Coin_Pickup",
+          "persistentUuid": "9ab8f0b2-903c-474c-9bc1-7d3f6f96d94a",
+          "width": 0,
+          "x": 316,
+          "y": 1084,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "2cfbfdf2-5dd6-4b64-a2fc-79c91a9150e8",
+          "width": 704,
+          "x": 512,
+          "y": 2720,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "0846d1dd-646c-417e-9617-63e33e9189cb",
+          "width": 128,
+          "x": 256,
+          "y": 1600,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 416,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "b3709beb-0f82-402b-a108-dc068b94be71",
+          "width": 32,
+          "x": 96,
+          "y": 704,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "fbcebb8c-2218-434f-8d41-f99e5d6f9209",
+          "width": 32,
+          "x": 0,
+          "y": 224,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "ae4bb114-fbbd-4b69-910e-3c081d906e3d",
+          "width": 512,
+          "x": -32,
+          "y": 1760,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "281edde3-d404-4de6-84b0-5fc4ecc3f394",
+          "width": 64,
+          "x": 256,
+          "y": 1312,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "902a97f0-6b13-4b26-b015-f4442b740191",
+          "width": 96,
+          "x": 64,
+          "y": 1568,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Gold_Coin_Pickup",
+          "persistentUuid": "0dc6b7ba-12c0-46a4-aaa7-dff99868dc50",
+          "width": 0,
+          "x": 610,
+          "y": 399,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Gold_Coin_Pickup",
+          "persistentUuid": "b13c49e2-1e9c-4fba-8d3e-0787ec9f6a6b",
+          "width": 0,
+          "x": 320,
+          "y": 800,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Gold_Coin_Pickup",
+          "persistentUuid": "46e6c178-14cd-46ae-9faa-64a05f48be14",
+          "width": 0,
+          "x": 700,
+          "y": 1916,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 704,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "4716bd66-75ad-4b87-9bf2-bd596f216ba8",
+          "width": 32,
+          "x": -64,
+          "y": 1088,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "cbcf295a-6615-46a9-84d4-26901b45de94",
+          "width": 416,
+          "x": -48,
+          "y": 880,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "567b6433-16f0-4b6a-a687-7985d33c717c",
+          "width": 160,
+          "x": -64,
+          "y": 1056,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "82a34f00-bea1-4823-a070-87e6144f2549",
+          "width": 704,
+          "x": 0,
+          "y": 192,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "e7941d9d-2d3e-44d2-8968-f7244105fcb5",
+          "width": 480,
+          "x": 544,
+          "y": 1344,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1024,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "bfcad658-90dc-45b5-84a7-8fdcb5c2a0ff",
+          "width": 32,
+          "x": 480,
+          "y": 1760,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Gold_Coin_Pickup",
+          "persistentUuid": "2d20871f-60af-4942-96c0-2a145f70fde2",
+          "width": 0,
+          "x": 92,
+          "y": 1468,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "JumpPickup",
+          "persistentUuid": "9d8b9abe-1a74-4e89-aa6e-787857d84b54",
+          "width": 64,
+          "x": 768,
+          "y": 2336,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "b00e9e57-2c6e-473c-bfc2-9251a867a8d6",
+          "width": 96,
+          "x": 512,
+          "y": 1632,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "79c3669b-c657-48be-affa-74de84c552bd",
+          "width": 672,
+          "x": -336,
+          "y": 1392,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "3015a0fc-0e30-4e18-b067-420f485e992c",
+          "width": 736,
+          "x": 480,
+          "y": 2784,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "febdc482-3c34-4cbe-853a-750692fa2997",
+          "width": 64,
+          "x": 928,
+          "y": 1664,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "06f7b56e-d33c-4e24-b4ef-efaa6b377f08",
+          "width": 64,
+          "x": 736,
+          "y": 1728,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "62ee264c-f21f-4ab8-be1d-67c636435907",
+          "width": 544,
+          "x": -32,
+          "y": 1696,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "7e1e13a0-cf35-4c65-8960-5da017f6d077",
+          "width": 128,
+          "x": 1056,
+          "y": 2592,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Gold_Coin_Pickup",
+          "persistentUuid": "459c827f-0ade-4ea0-9170-412e91a3011c",
+          "width": 0,
+          "x": 1116,
+          "y": 2528,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "death",
+          "persistentUuid": "34808e3e-d296-46e1-bb0b-24731d550c6c",
+          "width": 32,
+          "x": 32,
+          "y": 160,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 27,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "deathCounter",
+          "persistentUuid": "64a647e5-2912-44c4-82b5-8aa882f09569",
+          "width": 81,
+          "x": 79,
+          "y": 160,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "47f2283327f1680c76d51acc8510f754c1e944641077f3a1c26d00bcbd16fd57_Tileset Piece 14.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "background",
+          "texture": "assets\\tiled_Brick3.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "background"
+          }
+        ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Right"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Gold",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "canDash",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "canDoubleJump",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Level 2.mp3",
+                "yes",
+                "10",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "no",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Common"
+        }
+      ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -43090,6 +44093,39 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "HUD",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -43112,6 +44148,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
         },
         {
           "name": "PlatformerConfigurationStack",
@@ -43159,7 +44199,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.841642812537312,
+        "zoomFactor": 0.8700232859857308,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -43192,7 +44232,7 @@
           "persistentUuid": "0b3901ab-7052-49b9-916c-9a78dc1b78dc",
           "width": 0,
           "x": 88,
-          "y": 580,
+          "y": 576,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -43228,7 +44268,12 @@
           "x": 576,
           "y": 544,
           "zOrder": 4,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -43261,7 +44306,12 @@
           "x": 352,
           "y": 544,
           "zOrder": 6,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -43276,7 +44326,15 @@
           "width": 32,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -43625,7 +44683,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -44516,7 +45574,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assets\\Enemies\\Electric Turret_1",
+              "name": "Attack",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -44969,6 +46027,10 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
           "name": "PlatformerConfigurationStack",
           "type": "AdvancedJump::PlatformerConfigurationStack"
         },
@@ -45018,7 +46080,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "PlayerStuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -45720,7 +46781,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "UI",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -45973,7 +47033,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "LevelStuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -46077,6 +47136,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Player Dash Pickup",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -46183,6 +47243,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Player Double Jump Pickup",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -46385,7 +47446,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Combat",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -46395,7 +47455,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Death",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -46446,48 +47505,110 @@
                         "dead",
                         "True"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "8801d2d6cde766d642136e3fb8749862146cc40b5ed144379f7ff14315c489f7_death.aac",
-                        "no",
-                        "40",
-                        "1.2"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "death",
+                            "Player.PointX(\"Center\")",
+                            "Player.PointY(\"Center\")",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "death",
+                            "=",
+                            "-100"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "death",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "deathCounter",
+                            "Text",
+                            "=",
+                            "GlobalVariableString(death)"
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "MettreX"
-                      },
-                      "parameters": [
-                        "Player",
-                        "=",
-                        "respawnPoint.X()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "MettreY"
-                      },
-                      "parameters": [
-                        "Player",
-                        "=",
-                        "respawnPoint.Y()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetSceneVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "dead",
-                        "False"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "8801d2d6cde766d642136e3fb8749862146cc40b5ed144379f7ff14315c489f7_death.aac",
+                            "no",
+                            "40",
+                            "1.2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "respawnPoint.X()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreY"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "respawnPoint.Y()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "dead",
+                            "False"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -46761,6 +47882,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemies",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -46770,7 +47892,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Slime",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
