@@ -39760,8 +39760,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
-          "folded": true,
           "name": "Controls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39899,7 +39897,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Player Controls",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -40422,8 +40419,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
-          "folded": true,
           "name": "Skins",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -41646,7 +41641,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2233600589381225,
+        "zoomFactor": 0.23867758270258743,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -43523,8 +43518,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
-          "folded": true,
           "name": "Controls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -43662,7 +43655,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Player Controls",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -44167,8 +44159,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
-          "folded": true,
           "name": "Skins",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -44321,7 +44311,6 @@
           "parameters": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -45435,7 +45424,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.1657211724752704,
+        "zoomFactor": 0.11131182576837143,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -48684,7 +48673,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Player Controls",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -48730,65 +48718,12 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::IsJumping"
+                            "value": "VarGlobalTxt"
                           },
                           "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::JumpSustainTime"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject",
+                            "skin",
                             "=",
-                            "0.4"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsFalling"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Jumping\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsOnFloor"
-                          },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
+                            "\"default\""
                           ]
                         }
                       ],
@@ -48799,8 +48734,7 @@
                           "conditions": [
                             {
                               "type": {
-                                "inverted": true,
-                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                                "value": "PlatformBehavior::IsJumping"
                               },
                               "parameters": [
                                 "Player",
@@ -48811,13 +48745,13 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                "value": "PlatformBehavior::JumpSustainTime"
                               },
                               "parameters": [
                                 "Player",
-                                "Animation",
+                                "PlatformerObject",
                                 "=",
-                                "\"Idle\""
+                                "0.4"
                               ]
                             }
                           ]
@@ -48827,7 +48761,7 @@
                           "conditions": [
                             {
                               "type": {
-                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                                "value": "PlatformBehavior::IsFalling"
                               },
                               "parameters": [
                                 "Player",
@@ -48844,7 +48778,79 @@
                                 "Player",
                                 "Animation",
                                 "=",
-                                "\"Walking\""
+                                "\"Jumping\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsOnFloor"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "PlatformerObject"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "\"Walking\""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "PlatformerObject"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "\"Idle\""
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -49305,7 +49311,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Skins",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -49465,7 +49470,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "LevelStuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -49891,6 +49895,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Combat",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -50675,6 +50680,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemies",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
