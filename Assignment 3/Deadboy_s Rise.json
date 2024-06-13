@@ -17989,7 +17989,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Scene 2\"",
+                    "\"Scene 3\"",
                     ""
                   ]
                 }
@@ -19937,7 +19937,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3010461197182784,
+        "zoomFactor": 0.32169117647062345,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -41599,7 +41599,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -41607,8 +41607,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.5117784035210368,
+        "snap": false,
+        "zoomFactor": 0.3553434558817121,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -41638,7 +41638,7 @@
           "name": "Player",
           "persistentUuid": "255b952e-db53-4adb-8bcc-a1b21950e403",
           "width": 0,
-          "x": 32,
+          "x": 83,
           "y": 576,
           "zOrder": 2,
           "numberProperties": [],
@@ -42834,6 +42834,73 @@
           "x": -800,
           "y": 96,
           "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Down",
+          "persistentUuid": "5e490c76-01c0-483c-8972-e00a1521f7df",
+          "width": 27,
+          "x": 645,
+          "y": -576,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Up",
+          "persistentUuid": "cf11cb80-266a-432d-98c3-10d1b11725a0",
+          "width": 0,
+          "x": 640,
+          "y": -128,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bat",
+          "persistentUuid": "64a809c5-9bba-4dfd-bad3-7251414268f3",
+          "width": 64,
+          "x": 640,
+          "y": -576,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "26bd5dfa-7c71-4a9f-ab4b-0830b9e76ad4",
+          "width": 226,
+          "x": -214,
+          "y": 779,
+          "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -44366,7 +44433,6 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": true,
-          "folded": true,
           "name": "Slime",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -44518,7 +44584,6 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": true,
-          "folded": true,
           "name": "Combat",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -45333,7 +45398,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4789341884535295,
+        "zoomFactor": 0.4335774304702418,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -46087,8 +46152,8 @@
           "name": "Bat",
           "persistentUuid": "074a5d21-a468-41f2-b8ba-7e622486a479",
           "width": 64,
-          "x": 320,
-          "y": 256,
+          "x": 352,
+          "y": 288,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -46119,7 +46184,7 @@
           "name": "Up",
           "persistentUuid": "3a982ba9-64e6-4c41-9841-ee62c638f38e",
           "width": 0,
-          "x": 320,
+          "x": 357,
           "y": 1280,
           "zOrder": 40,
           "numberProperties": [],
@@ -49648,7 +49713,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Slime",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -49731,7 +49795,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -49948,7 +50011,6 @@
               "parameters": []
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -50457,8 +50519,47 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Bat",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "dead",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "colorB": 228,
