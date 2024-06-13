@@ -8976,6 +8976,195 @@
         "name": "Golem10",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Enemies_Boss Golem_Idle_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Enemies_Boss Golem_Idle_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Enemies_Boss Golem_Idle_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Enemies_Boss Golem_Idle_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Enemies_Boss Golem_Idle_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Enemies_Boss Golem_Idle_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Enemies_Boss Golem_Idle_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bouldergolem.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/bouldergolem.png\"}",
+        "name": "bouldergolem",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bouldergolem2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/bouldergolem2.png\"}",
+        "name": "bouldergolem2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bouldergolem3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/bouldergolem3.png\"}",
+        "name": "bouldergolem3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bouldergolem4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/bouldergolem4.png\"}",
+        "name": "bouldergolem4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bouldergolem5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/bouldergolem5.png\"}",
+        "name": "bouldergolem5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bouldergolem6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/bouldergolem6.png\"}",
+        "name": "bouldergolem6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bouldergolem7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/bouldergolem7.png\"}",
+        "name": "bouldergolem7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Boss Golem_Idle_8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Boss Golem_Idle_9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Boss Golem_Idle_10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Boss Golem_Idle_11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Boss Golem_Idle_12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Boss Golem_Idle_13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Enemies_Boss Golem_Idle_14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Enemies\\Boss Golem_Idle_14",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14716,7 +14905,7 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Projectile",
       "type": "Sprite",
@@ -14735,13 +14924,13 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "LaserTurret2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 50,
+                    "y": 50
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14749,26 +14938,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 2
-                      },
-                      {
-                        "x": 98,
-                        "y": 2
-                      },
-                      {
-                        "x": 98,
-                        "y": 98
-                      },
-                      {
-                        "x": 2,
-                        "y": 98
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -14789,8 +14959,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 150,
+                    "y": 150.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14801,20 +14971,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 99,
+                        "y": 111.5
                       },
                       {
-                        "x": 98,
-                        "y": 2
+                        "x": 183,
+                        "y": 114.5
                       },
                       {
-                        "x": 98,
-                        "y": 98
+                        "x": 179,
+                        "y": 191
                       },
                       {
-                        "x": 2,
-                        "y": 98
+                        "x": 101,
+                        "y": 193.5
                       }
                     ]
                   ]
@@ -14825,8 +14995,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 150,
+                    "y": 150.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14837,20 +15007,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 99,
+                        "y": 111.5
                       },
                       {
-                        "x": 98,
-                        "y": 2
+                        "x": 183,
+                        "y": 114.5
                       },
                       {
-                        "x": 98,
-                        "y": 98
+                        "x": 179,
+                        "y": 191
                       },
                       {
-                        "x": 2,
-                        "y": 98
+                        "x": 101,
+                        "y": 193.5
                       }
                     ]
                   ]
@@ -14861,8 +15031,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 150,
+                    "y": 150.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14873,20 +15043,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 99,
+                        "y": 111.5
                       },
                       {
-                        "x": 98,
-                        "y": 2
+                        "x": 183,
+                        "y": 114.5
                       },
                       {
-                        "x": 98,
-                        "y": 98
+                        "x": 179,
+                        "y": 191
                       },
                       {
-                        "x": 2,
-                        "y": 98
+                        "x": 101,
+                        "y": 193.5
                       }
                     ]
                   ]
@@ -14897,8 +15067,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 150,
+                    "y": 150.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14909,20 +15079,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 99,
+                        "y": 111.5
                       },
                       {
-                        "x": 98,
-                        "y": 2
+                        "x": 183,
+                        "y": 114.5
                       },
                       {
-                        "x": 98,
-                        "y": 98
+                        "x": 179,
+                        "y": 191
                       },
                       {
-                        "x": 2,
-                        "y": 98
+                        "x": 101,
+                        "y": 193.5
                       }
                     ]
                   ]
@@ -14933,8 +15103,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 150,
+                    "y": 150.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -14945,20 +15115,600 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 99,
+                        "y": 111.5
                       },
                       {
-                        "x": 98,
-                        "y": 2
+                        "x": 183,
+                        "y": 114.5
                       },
                       {
-                        "x": 98,
-                        "y": 98
+                        "x": 179,
+                        "y": 191
                       },
                       {
-                        "x": 2,
-                        "y": 98
+                        "x": 101,
+                        "y": 193.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "6c2c0980050ecd6850d4c31e30ea599795935bbdd57826e8269c8b1ce8601907",
+      "name": "Golem",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "hp",
+          "type": "number",
+          "value": 2
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 2,
+          "HasJustFired": false,
+          "RotateBullet": true,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "BulletSpeedVariance": 0,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "assets\\Enemies\\Boss Golem_Idle_1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.4,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemies\\Boss Golem_Idle_8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemies\\Boss Golem_Idle_9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemies\\Boss Golem_Idle_10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemies\\Boss Golem_Idle_11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemies\\Boss Golem_Idle_12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemies\\Boss Golem_Idle_13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Enemies\\Boss Golem_Idle_14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "boulder",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.8,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bouldergolem",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bouldergolem2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bouldergolem3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bouldergolem4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bouldergolem5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bouldergolem6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bouldergolem7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 150,
+                    "y": 150.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 50,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 25
+                      },
+                      {
+                        "x": 256,
+                        "y": 275
+                      },
+                      {
+                        "x": 50,
+                        "y": 275
                       }
                     ]
                   ]
@@ -15053,6 +15803,9 @@
       },
       {
         "objectName": "Projectile"
+      },
+      {
+        "objectName": "Golem"
       }
     ]
   },
@@ -44702,7 +45455,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8700232859857308,
+        "zoomFactor": 0.7370816317994044,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -44751,8 +45504,8 @@
           "name": "Golem",
           "persistentUuid": "b00a1967-5fd7-4c24-8812-442119cb67aa",
           "width": 160,
-          "x": 768,
-          "y": 512,
+          "x": 800,
+          "y": 320,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -44790,7 +45543,7 @@
           "persistentUuid": "9a74db06-5678-4836-ac1b-12692e91caf8",
           "width": 50,
           "x": 270,
-          "y": 512,
+          "y": 590,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -44820,15 +45573,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "Projectile",
           "persistentUuid": "bc272306-b055-41dc-a588-f1f4deb5396a",
-          "width": 0,
+          "width": 96,
           "x": 352,
-          "y": 244,
+          "y": 576,
           "zOrder": 7,
           "numberProperties": [
             {
@@ -44836,6 +45590,45 @@
               "value": 1
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Golem",
+          "persistentUuid": "9e7a4b6d-8d1a-47c4-9c83-514f688b9c29",
+          "width": 160,
+          "x": 1040,
+          "y": 592,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Golem",
+          "persistentUuid": "edc65ae5-3326-4dac-a0c0-30855975b227",
+          "width": 160,
+          "x": 96,
+          "y": 288,
+          "zOrder": 3,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -44857,283 +45650,6 @@
               "canBeGrabbed": false,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "6c2c0980050ecd6850d4c31e30ea599795935bbdd57826e8269c8b1ce8601907",
-          "name": "Golem",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\Enemies\\Boss Golem_Idle_1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.4,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemies\\Boss Golem_Idle_1",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 44,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 275
-                          },
-                          {
-                            "x": 44,
-                            "y": 275
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemies\\Boss Golem_Idle_2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 44,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 275
-                          },
-                          {
-                            "x": 44,
-                            "y": 275
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemies\\Boss Golem_Idle_3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 44,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 275
-                          },
-                          {
-                            "x": 44,
-                            "y": 275
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemies\\Boss Golem_Idle_4",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 44,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 275
-                          },
-                          {
-                            "x": 44,
-                            "y": 275
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemies\\Boss Golem_Idle_5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 44,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 275
-                          },
-                          {
-                            "x": 44,
-                            "y": 275
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemies\\Boss Golem_Idle_6",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 44,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 275
-                          },
-                          {
-                            "x": 44,
-                            "y": 275
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Enemies\\Boss Golem_Idle_7",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 44,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 25
-                          },
-                          {
-                            "x": 250,
-                            "y": 275
-                          },
-                          {
-                            "x": 44,
-                            "y": 275
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -46384,9 +46900,6 @@
             "objectName": "NewTiledSprite"
           },
           {
-            "objectName": "Golem"
-          },
-          {
             "objectName": "LaserTurret"
           },
           {
@@ -46462,6 +46975,10 @@
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
         },
         {
           "name": "Flippable",
@@ -47234,6 +47751,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "UI",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -47486,6 +48004,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "LevelStuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -47899,7 +48418,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Combat",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -48072,83 +48590,312 @@
               "parameters": []
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Slime",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "PlatformBehavior::IsFalling"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Slime",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Slime",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SetCanJump"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "coin.wav",
+                        "",
+                        "15",
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Gold",
+                        "+",
+                        "1"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Slime",
-                    "",
-                    "",
-                    ""
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Slime",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "JP: Disabled, incase you want to revert changes."
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "8801d2d6cde766d642136e3fb8749862146cc40b5ed144379f7ff14315c489f7_death.aac",
+                            "",
+                            "40",
+                            "1.2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreY"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "321"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "13"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetSceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "dead",
+                            "True"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Slime",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::SetCanJump"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::SimulateJumpKey"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "coin.wav",
-                    "",
-                    "15",
-                    "1.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Gold",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
+              "parameters": []
             },
             {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Golem",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Golem",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SetCanJump"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "coin.wav",
+                        "",
+                        "15",
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Gold",
+                        "+",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Golem",
+                        "hp",
+                        "-",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Golem",
+                        "hp",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Golem",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -48235,6 +48982,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -48243,7 +48991,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "Slime",
+                    "Projectile",
                     "",
                     "",
                     ""
@@ -48251,67 +48999,18 @@
                 },
                 {
                   "type": {
-                    "value": "PlatformBehavior::IsOnFloor"
+                    "inverted": true,
+                    "value": "AdvancedJump::HorizontalDash::IsDashing"
                   },
                   "parameters": [
                     "Player",
-                    "PlatformerObject"
+                    "HorizontalDash",
+                    ""
                   ]
                 }
               ],
               "actions": [],
               "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "JP: Disabled, incase you want to revert changes."
-                },
-                {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "8801d2d6cde766d642136e3fb8749862146cc40b5ed144379f7ff14315c489f7_death.aac",
-                        "",
-                        "40",
-                        "1.2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "MettreY"
-                      },
-                      "parameters": [
-                        "Player",
-                        "=",
-                        "321"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "MettreX"
-                      },
-                      "parameters": [
-                        "Player",
-                        "=",
-                        "13"
-                      ]
-                    }
-                  ]
-                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
@@ -48323,6 +49022,15 @@
                       "parameters": [
                         "dead",
                         "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Projectile",
+                        ""
                       ]
                     }
                   ]
@@ -48346,6 +49054,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Slime",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -48496,6 +49205,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Turret",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -48591,6 +49301,7 @@
                   "comment": "Shoot"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -48702,8 +49413,19 @@
                       "parameters": [
                         "Golem",
                         "Player",
-                        "300",
+                        "700",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Golem",
+                        "Animation",
+                        "=",
+                        "\"assets\\Enemies\\Boss Golem_Idle_1\""
                       ]
                     }
                   ],
@@ -48711,67 +49433,21 @@
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
+                      "conditions": [],
                       "actions": [
                         {
                           "type": {
-                            "value": "ResetObjectTimer"
+                            "value": "FireBullet::FireBullet::FireTowardObject"
                           },
                           "parameters": [
                             "Golem",
-                            "\"Attack\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CompareObjectTimer"
-                          },
-                          "parameters": [
-                            "Golem",
-                            "\"Attack\"",
-                            ">=",
-                            "2"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
+                            "FireBullet",
+                            "Golem.CenterX()",
+                            "Golem.CenterY()-100",
                             "Projectile",
-                            "Golem.X()",
-                            "Golem.Y()-30",
+                            "Player",
+                            "200",
                             ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Golem",
-                            "\"Attack\""
                           ]
                         },
                         {
@@ -48784,170 +49460,50 @@
                             "=",
                             "\"Golem\""
                           ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::ForEach",
-                          "object": "Projectile",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AddForceVers"
-                              },
-                              "parameters": [
-                                "Projectile",
-                                "Player",
-                                "500",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "3"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "Projectile",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CompareObjectTimer"
-                          },
-                          "parameters": [
-                            "Golem",
-                            "\"Attack\"",
-                            ">=",
-                            "1"
-                          ]
                         },
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AddForceVers"
+                            "value": "ResizableCapability::ResizableBehavior::SetSize"
                           },
                           "parameters": [
                             "Projectile",
-                            "Player",
-                            "100",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Golem",
-                            "\"Attack\""
+                            "Resizable",
+                            "96",
+                            "96"
                           ]
                         }
                       ]
                     }
                   ]
-                },
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "BoulderGolem",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "Distance"
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
                       },
                       "parameters": [
                         "Golem",
-                        "Player",
-                        "300",
-                        ""
+                        "Animation",
+                        "=",
+                        "\"boulder\""
                       ]
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "RemoveObjectTimer"
-                      },
-                      "parameters": [
-                        "Golem",
-                        "\"Attack\""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Sprite"
-                          },
-                          "parameters": [
-                            "Projectile",
-                            "<=",
-                            "4"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "Projectile",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
+                  "actions": []
                 }
               ],
               "parameters": []
