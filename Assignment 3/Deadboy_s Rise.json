@@ -8886,6 +8886,96 @@
         "name": "assets\\Tileset Piece 14.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Golem.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Golem",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Golem2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Golem2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Golem3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Golem3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Golem4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Golem4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Golem5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Golem5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Golem6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Golem6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Golem7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Golem7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Golem8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Golem8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Golem9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Golem9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Golem10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Golem10",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14624,6 +14714,260 @@
         "characterSize": 26,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Projectile",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "LaserTurret",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "LaserTurret2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 98,
+                        "y": 2
+                      },
+                      {
+                        "x": 98,
+                        "y": 98
+                      },
+                      {
+                        "x": 2,
+                        "y": 98
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Golem",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Golem6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 98,
+                        "y": 2
+                      },
+                      {
+                        "x": 98,
+                        "y": 98
+                      },
+                      {
+                        "x": 2,
+                        "y": 98
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Golem7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 98,
+                        "y": 2
+                      },
+                      {
+                        "x": 98,
+                        "y": 98
+                      },
+                      {
+                        "x": 2,
+                        "y": 98
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Golem8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 98,
+                        "y": 2
+                      },
+                      {
+                        "x": 98,
+                        "y": 98
+                      },
+                      {
+                        "x": 2,
+                        "y": 98
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Golem9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 98,
+                        "y": 2
+                      },
+                      {
+                        "x": 98,
+                        "y": 98
+                      },
+                      {
+                        "x": 2,
+                        "y": 98
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Golem10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 98,
+                        "y": 2
+                      },
+                      {
+                        "x": 98,
+                        "y": 98
+                      },
+                      {
+                        "x": 2,
+                        "y": 98
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -14706,6 +15050,9 @@
       },
       {
         "objectName": "deathCounter"
+      },
+      {
+        "objectName": "Projectile"
       }
     ]
   },
@@ -44470,6 +44817,27 @@
           ],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Projectile",
+          "persistentUuid": "bc272306-b055-41dc-a588-f1f4deb5396a",
+          "width": 0,
+          "x": 352,
+          "y": 244,
+          "zOrder": 7,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -45649,78 +46017,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Projectile",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "LaserTurret",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "LaserTurret2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 2
-                          },
-                          {
-                            "x": 98,
-                            "y": 2
-                          },
-                          {
-                            "x": 98,
-                            "y": 98
-                          },
-                          {
-                            "x": 2,
-                            "y": 98
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Golem",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "62af62ee03f986f1f85329aa98e6e17fd76c4fe0afa8ef4d32c2f4fd325db02e",
           "name": "ElectricTurret",
           "type": "Sprite",
@@ -46092,9 +46388,6 @@
           },
           {
             "objectName": "LaserTurret"
-          },
-          {
-            "objectName": "Projectile"
           },
           {
             "objectName": "ElectricTurret"
@@ -48439,8 +48732,7 @@
                       ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "Golem",
+                      "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
@@ -48450,7 +48742,7 @@
                             "Golem",
                             "\"Attack\"",
                             ">=",
-                            "1"
+                            "2"
                           ]
                         },
                         {
@@ -48484,16 +48776,173 @@
                         },
                         {
                           "type": {
-                            "value": "Physics2::ApplyImpulseTowardPosition"
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
                             "Projectile",
-                            "",
-                            "10",
-                            "Player.X()",
-                            "Player.Y()",
-                            "Projectile.X()",
-                            "Projectile.Y()"
+                            "Animation",
+                            "=",
+                            "\"Golem\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "Projectile",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AddForceVers"
+                              },
+                              "parameters": [
+                                "Projectile",
+                                "Player",
+                                "500",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Projectile",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Golem",
+                            "\"Attack\"",
+                            ">=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceVers"
+                          },
+                          "parameters": [
+                            "Projectile",
+                            "Player",
+                            "100",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Golem",
+                            "\"Attack\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Golem",
+                        "Player",
+                        "300",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Golem",
+                        "\"Attack\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Sprite"
+                          },
+                          "parameters": [
+                            "Projectile",
+                            "<=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Projectile",
+                            ""
                           ]
                         }
                       ]
