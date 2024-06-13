@@ -8877,6 +8877,15 @@
         "name": "assets\\TombStone (1).png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset Piece 14.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -43261,7 +43270,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8993607583666677,
+        "zoomFactor": 0.34375202416123485,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -43497,7 +43506,7 @@
           "persistentUuid": "0846d1dd-646c-417e-9617-63e33e9189cb",
           "width": 128,
           "x": 256,
-          "y": 1600,
+          "y": 1664,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -43507,7 +43516,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 416,
+          "height": 384,
           "keepRatio": true,
           "layer": "",
           "name": "NewTiledSprite",
@@ -43550,23 +43559,6 @@
           "x": -32,
           "y": 1760,
           "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Spikes",
-          "persistentUuid": "281edde3-d404-4de6-84b0-5fc4ecc3f394",
-          "width": 64,
-          "x": 256,
-          "y": 1312,
-          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -43662,9 +43654,9 @@
           "layer": "",
           "name": "Spikes",
           "persistentUuid": "cbcf295a-6615-46a9-84d4-26901b45de94",
-          "width": 416,
-          "x": -48,
-          "y": 880,
+          "width": 384,
+          "x": -32,
+          "y": 864,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -43713,7 +43705,7 @@
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "e7941d9d-2d3e-44d2-8968-f7244105fcb5",
-          "width": 480,
+          "width": 608,
           "x": 544,
           "y": 1344,
           "zOrder": 25,
@@ -43748,7 +43740,7 @@
           "persistentUuid": "2d20871f-60af-4942-96c0-2a145f70fde2",
           "width": 0,
           "x": 92,
-          "y": 1468,
+          "y": 1500,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -43832,8 +43824,8 @@
           "name": "NewTiledSprite",
           "persistentUuid": "febdc482-3c34-4cbe-853a-750692fa2997",
           "width": 64,
-          "x": 928,
-          "y": 1664,
+          "x": 1376,
+          "y": 1728,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -43939,6 +43931,88 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "d59fa10d-4abf-43bc-a5d6-a84717af5019",
+          "width": 0,
+          "x": 288,
+          "y": 1632,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Left",
+          "persistentUuid": "3499d2a7-b72a-4cac-9ffb-c01cb6deb81c",
+          "width": 0,
+          "x": 352,
+          "y": 1632,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Right",
+          "persistentUuid": "bc0069c7-830f-4b69-ab26-2ad927381469",
+          "width": 0,
+          "x": 261,
+          "y": 1632,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "movingplatform",
+          "persistentUuid": "2ad5138d-8bba-4e11-9134-df6ab52c4b9b",
+          "width": 96,
+          "x": 1344,
+          "y": 2592,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spikes",
+          "persistentUuid": "70305a9f-7e0b-4b3d-b013-d489c0610ee1",
+          "width": 64,
+          "x": 256,
+          "y": 1312,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -43971,6 +44045,17 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "movingplatform",
+          "texture": "assets\\Tileset Piece 14.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -43981,6 +44066,9 @@
           },
           {
             "objectName": "background"
+          },
+          {
+            "objectName": "movingplatform"
           }
         ]
       },
@@ -44313,7 +44401,7 @@
           "height": 160,
           "keepRatio": true,
           "layer": "",
-          "name": "BossGolem",
+          "name": "Golem",
           "persistentUuid": "b00a1967-5fd7-4c24-8812-442119cb67aa",
           "width": 160,
           "x": 768,
@@ -44407,7 +44495,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "6c2c0980050ecd6850d4c31e30ea599795935bbdd57826e8269c8b1ce8601907",
-          "name": "BossGolem",
+          "name": "Golem",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -44419,9 +44507,9 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.4,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -46000,7 +46088,7 @@
             "objectName": "NewTiledSprite"
           },
           {
-            "objectName": "BossGolem"
+            "objectName": "Golem"
           },
           {
             "objectName": "LaserTurret"
@@ -46157,7 +46245,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Controls",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -46837,6 +46924,11 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
                     }
                   ],
                   "parameters": []
@@ -47514,6 +47606,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Combat",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -47951,7 +48044,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Enemies",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -48317,12 +48409,96 @@
                       "parameters": [
                         "Golem",
                         "Player",
-                        "",
+                        "300",
                         ""
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Golem",
+                            "\"Attack\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Golem",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Golem",
+                            "\"Attack\"",
+                            ">=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Projectile",
+                            "Golem.X()",
+                            "Golem.Y()-30",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Golem",
+                            "\"Attack\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Physics2::ApplyImpulseTowardPosition"
+                          },
+                          "parameters": [
+                            "Projectile",
+                            "",
+                            "10",
+                            "Player.X()",
+                            "Player.Y()",
+                            "Projectile.X()",
+                            "Projectile.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -48362,6 +48538,18 @@
             }
           ],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "JP: For easy testing. Hold z and press 1 for doublejump, etc etc."
         },
         {
           "colorB": 228,
