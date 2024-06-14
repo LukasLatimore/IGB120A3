@@ -9457,6 +9457,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/fakeplatform.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\fakeplatform.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -45458,7 +45468,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2550455473354423,
+        "zoomFactor": 0.18923010380623498,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -51050,6 +51060,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Player Controls",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -51688,6 +51699,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Skins",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -52269,6 +52281,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Fake Platform",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -52305,7 +52318,7 @@
                       },
                       "parameters": [
                         "",
-                        "New sound effect",
+                        "assets\\fakeplatform.wav",
                         "",
                         "30",
                         "1"
@@ -53109,6 +53122,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemies",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
